@@ -153,3 +153,6 @@ python taggin.py omn_subdb.fasta omn_domdb.fasta
 echo "Cambio de etiquetas exitoso! Archivo final para pasar al alineamiento con etiquetas cambiadas será temporalmente denominada modified.fasta y su traducción está en el archivo tag.BED"
 
 rm tags.txt
+
+# -------- Combina tus bases de datos -------------------
+cat met_domdb.fasta omn_domdb.fasta > metomn_added.fasta
