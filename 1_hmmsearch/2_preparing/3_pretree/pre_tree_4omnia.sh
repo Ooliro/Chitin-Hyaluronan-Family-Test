@@ -19,8 +19,8 @@ cat met_accsnm.temp 100om_accsnm.temp > accs_prompts.txt
 # ------------------------------------------------------------------------
 # PRIMERO creamos una base de datos base, sólo con las secuencias que utilizaremos y sin ningun filtro o edición
 
-seqtk subseq $5 met_accsnm.temp > met_subdb.fasta # Metazoa
-seqtk subseq $6 100om_accsnm.temp > omn_subdb.fasta # Omnia
+seqtk subseq $4 met_accsnm.temp > met_subdb.fasta # Metazoa
+seqtk subseq $5 100om_accsnm.temp > omn_subdb.fasta # Omnia
 
 # SEGUNDO editamos estas DB para conservar solo los rangos ubicados, solo uno y el primero que aparezca si hay mas de uno
 # Ahora con los numeros de acceso que usamos antes hacemos una búsqueda en las tablas de resultados crudos para sacar los diferentes rangos disponibles
