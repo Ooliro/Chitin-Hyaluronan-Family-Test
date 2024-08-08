@@ -45,9 +45,9 @@ rm lost.temp
 rm catch_sort.temp
 echo "Archivos BED creados [OK] "
 # ------------------------------------------------------------------------
-awk '{print $0 "\t" $3-$2}' hmm.bed > met_hmm_diff.bed
-awk '{print $0 "\t" $3-$2}' ali.bed > met_ali_diff.bed
-awk '{print $0 "\t" $3-$2}' env.bed > met_env_diff.bed
+awk '{print $0 "\t" $3-$2}' met_hmm.bed > met_hmm_diff.bed
+awk '{print $0 "\t" $3-$2}' met_ali.bed > met_ali_diff.bed
+awk '{print $0 "\t" $3-$2}' met_env.bed > met_env_diff.bed
 echo "Deltas de dominios BED creados [OK] "
 # ------------------------------------------------------------------------
 echo "Escribe un formato de rangos para Metazoa:"
@@ -69,12 +69,7 @@ fi
 
 bedtools getfasta -fi met_subdb.fasta -bed $temp_file -fo met_domdb.fasta
 echo "[OK]  Sub-base de datos para Metazoa cortada"
-# ------------------------------------------------------------------------
-# Limpia otros archivos
-rm acc.txt
-rm subdb.fasta.fai
-rm good_values.temp
-
+# -----------------------------------------------------------------------
 # Acomoda tus archivos
 mkdir met_bedrooms
 mkdir met_bedrooms/diff
