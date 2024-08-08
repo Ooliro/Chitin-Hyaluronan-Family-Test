@@ -86,8 +86,8 @@ echo "[OK] La tabla domdb.fasta será la que utilices para tu alineamiento"
 echo "[EXTRA] La tabla subdb.fasta serán las secuencias FASTA de tus claves contenidas en tu archivo no_duplicates!"
 
 # Cambio de etiquetas
-python taggin.py met_subdb.fasta met_domdb.fasta
-echo "Cambio de etiquetas exitoso! Archivo final para pasar al alineamiento con etiquetas cambiadas será temporalmente denominada modified.fasta y su traducción está en el archivo tag.BED"
+python taggin_met.py met_subdb.fasta met_domdb.fasta
+echo "Cambio de etiquetas exitoso! Archivo final para pasar al alineamiento con etiquetas cambiadas será temporalmente denominada met_modified.fasta y su traducción está en el archivo tag.BED"
 rm tags.txt
 
 
@@ -144,10 +144,10 @@ echo "[EXTRA] La tabla subdb.fasta serán las secuencias FASTA de tus claves con
 
 #---------------------------Cambio de etiquetas---------------------------------------
 
-python taggin.py omn_subdb.fasta omn_domdb.fasta
-echo "Cambio de etiquetas exitoso! Archivo final para pasar al alineamiento con etiquetas cambiadas será temporalmente denominada modified.fasta y su traducción está en el archivo tag.BED"
+python taggin_omn.py omn_subdb.fasta omn_domdb.fasta
+echo "Cambio de etiquetas exitoso! Archivo final para pasar al alineamiento con etiquetas cambiadas será temporalmente denominada omn_modified.fasta y su traducción está en el archivo tag.BED"
 
 rm tags.txt
 
 # -------- Combina tus bases de datos -------------------
-cat met_domdb.fasta omn_domdb.fasta > metomn_added.fasta
+cat met_modified.fasta omn_modified.fasta > metomn_added.fasta
