@@ -1,0 +1,2039 @@
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    mon-bi (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -m MFP -B 1000 -alrt 1000 -s ../gen100_famsa_10gap.fa -T AUTO --redo-tree
+Seed:    280596 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 15 00:48:19 2024
+Kernel:  AVX+FMA - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file ../gen100_famsa_10gap.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 1321 sequences with 201 columns, 201 distinct patterns
+192 parsimony-informative, 7 singleton sites, 2 constant sites
+          Gap/Ambiguity  Composition  p-value
+   1  aaeN1       0.00%    passed    100.00%
+   2  aaeN2       0.00%    passed     96.97%
+   3  aagC2       0.00%    passed     99.40%
+   4  aalC1       0.00%    passed     96.45%
+   5  aalbC1      0.00%    passed     99.99%
+   6  aalbC2      0.00%    passed     96.97%
+   7  aaloC3      3.98%    passed     99.72%
+   8  aaloC4      0.00%    passed     99.95%
+   9  aaloC5      0.00%    passed     99.97%
+  10  aanC5       0.00%    passed     99.16%
+  11  aanC6       0.00%    passed     99.98%
+  12  aanC7       0.00%    passed     99.93%
+  13  aanC8       0.00%    passed     99.71%
+  14  aanC9       0.00%    passed     99.56%
+  15  aaqC1       0.00%    passed    100.00%
+  16  aaqC2       0.00%    passed     96.45%
+  17  aarC1       0.00%    passed    100.00%
+  18  aarC2       0.00%    passed     93.46%
+  19  acalC1      0.00%    passed     99.56%
+  20  acalC10     0.50%    passed     94.92%
+  21  acalC5      0.00%    passed     98.99%
+  22  acalC6      0.00%    passed     96.43%
+  23  acalC7      0.00%    passed    100.00%
+  24  acalC9      0.00%    passed     99.99%
+  25  acalN11     0.00%    passed     99.95%
+  26  acalN8      0.00%    passed     28.43%
+  27  aceC1       0.00%    passed     97.98%
+  28  aceC4       0.00%    passed     99.94%
+  29  aceC5       0.00%    passed    100.00%
+  30  acepN1      0.00%    passed     99.73%
+  31  acerC1      0.50%    passed     99.91%
+  32  acoC1       0.00%    passed    100.00%
+  33  acoC2       0.00%    passed     93.46%
+  34  acolN1      0.00%    passed     99.73%
+  35  acooC1      0.00%    passed     94.54%
+  36  acrC1       0.00%    passed     96.97%
+  37  acrC2       0.00%    passed    100.00%
+  38  adaC1       0.00%    passed     96.45%
+  39  adaC2       0.00%    passed    100.00%
+  40  adiN1       0.00%    passed     96.94%
+  41  adiN2       0.00%    passed     82.92%
+  42  adoC1       2.99%    passed     30.11%
+  43  adoC2       0.00%    passed     99.86%
+  44  aecN1       0.00%    passed     99.73%
+  45  afiC1       2.49%    passed     13.51%
+  46  afloC1      0.50%    passed     99.91%
+  47  afuC1       2.49%    passed      8.48%
+  48  afunC1      0.00%    passed    100.00%
+  49  afunC2      0.00%    passed     94.26%
+  50  agaN1       0.00%    passed     93.46%
+  51  agaN2       0.00%    passed    100.00%
+  52  agiC1       0.00%    passed     99.54%
+  53  aglN1       1.00%    passed     99.91%
+  54  aglN2       0.00%    passed     99.65%
+  55  agoC1       0.00%    passed     94.20%
+  56  agrC1       1.00%    passed     99.98%
+  57  agrC2       0.00%    passed     99.29%
+  58  ajaC1       0.00%    passed     99.72%
+  59  alaC3       0.00%    passed     99.18%
+  60  alaC4       0.00%    passed     97.70%
+  61  alaC5       0.00%    passed     99.36%
+  62  alabC1      2.99%    passed     30.11%
+  63  alabC2      0.00%    passed     99.86%
+  64  aleC1       2.49%    passed      8.48%
+  65  aliH5       2.49%    passed     60.19%
+  66  aliN1       0.00%    passed     98.73%
+  67  aliN3       0.50%    passed     49.86%
+  68  amaC1       0.00%    passed    100.00%
+  69  amaC2       0.00%    passed     93.46%
+  70  amarC1      0.00%    passed    100.00%
+  71  amarC2      0.00%    passed     94.26%
+  72  amelC2      0.50%    passed     99.91%
+  73  amerC1      0.00%    passed     93.46%
+  74  amerC2      0.00%    passed    100.00%
+  75  amexC3      0.00%    passed     99.97%
+  76  amexC4      0.00%    passed     99.68%
+  77  amexC6      0.00%    passed     99.86%
+  78  amiC3       0.00%    passed     97.48%
+  79  amiN1       0.00%    passed     82.92%
+  80  amiN2       0.00%    passed     97.82%
+  81  amoC1       0.00%    passed     94.26%
+  82  amoC2       0.00%    passed    100.00%
+  83  anilC1      0.00%    passed    100.00%
+  84  anilC2      0.00%    passed     94.26%
+  85  aocC1       0.00%    passed     99.97%
+  86  aocC3       0.00%    passed     99.51%
+  87  aocH4       2.49%    passed     70.77%
+  88  aoceC1      0.00%    passed     99.99%
+  89  aoceC2      0.00%    passed     98.66%
+  90  apiC1       0.00%    passed     94.20%
+  91  aplaC1      0.50%    passed     99.94%
+  92  aplaC2      0.00%    passed     65.51%
+  93  aplaC3      0.00%    passed     99.27%
+  94  apoC2       0.00%    passed     99.78%
+  95  apoC5       0.00%    passed     99.99%
+  96  apoC6       0.00%    passed     99.93%
+  97  apoC7       0.00%    passed     99.97%
+  98  apoC8       0.00%    passed     99.92%
+  99  apoH4       2.49%    passed     66.58%
+ 100  aquN1       0.00%    passed     74.20%
+ 101  aquN2       1.00%    passed     50.81%
+ 102  aquN3       0.00%    passed     44.92%
+ 103  araC2       1.00%    passed     98.07%
+ 104  araC3       0.50%    passed     95.15%
+ 105  araC4       0.00%    passed     98.33%
+ 106  aroC1       0.00%    passed     99.80%
+ 107  aruC13      0.00%    passed     99.24%
+ 108  aruC3       0.00%    passed     99.71%
+ 109  aruC4       0.00%    passed     99.24%
+ 110  aruC5       0.00%    passed     99.73%
+ 111  aruC6       0.00%    passed     99.92%
+ 112  aruH11      2.49%    passed     66.22%
+ 113  aruH9       2.49%    passed     66.22%
+ 114  asaC1       0.00%    passed     99.97%
+ 115  asaC2       0.00%    passed     99.95%
+ 116  astC1       0.00%    passed    100.00%
+ 117  astC2       0.00%    passed     93.46%
+ 118  ateC1       0.00%    passed     99.07%
+ 119  ateC2       0.00%    passed     98.26%
+ 120  ateC3       0.00%    passed     99.99%
+ 121  ateC7       0.00%    passed     99.76%
+ 122  ateC8       0.00%    passed    100.00%
+ 123  atenN1      0.00%    passed     99.21%
+ 124  atenN2      0.00%    passed     97.29%
+ 125  atrN1       0.00%    passed     99.73%
+ 126  atuC1       0.50%    passed     99.74%
+ 127  atuC2       0.00%    passed     99.97%
+ 128  aunC1       2.49%    passed      8.72%
+ 129  bafC1       0.00%    passed     99.86%
+ 130  banC2       0.00%    passed     99.97%
+ 131  bbeN10      0.00%    passed     42.72%
+ 132  bbeN11      0.00%    passed     98.41%
+ 133  bbeN12      0.00%    passed     46.96%
+ 134  bbeN2       0.00%    passed     63.34%
+ 135  bbeN3       0.00%    passed     67.31%
+ 136  bbeN4       0.00%    passed     94.16%
+ 137  bbeN5       0.00%    passed     99.54%
+ 138  bbeN6       1.49%    passed     72.45%
+ 139  bbeN8       0.00%    passed     98.68%
+ 140  bbeN9       0.00%    passed     73.81%
+ 141  bbifC1      0.00%    passed     99.86%
+ 142  bbifC2      0.00%    passed     89.20%
+ 143  bboC5       0.00%    passed     99.62%
+ 144  bboC6       0.50%    passed     99.81%
+ 145  bboC7       0.50%    passed     98.65%
+ 146  bboC8       0.50%    passed     99.95%
+ 147  bboH1       2.49%    passed     51.02%
+ 148  bbrC2       0.00%    passed     99.99%
+ 149  bbrC3       0.00%    passed     99.94%
+ 150  bbrC4       0.00%    passed     99.93%
+ 151  bcoC1       1.00%    passed     93.66%
+ 152  bcoC2       1.00%    passed     98.42%
+ 153  bcoC3       0.00%    passed     99.99%
+ 154  bdoC1       0.50%    passed     98.92%
+ 155  bdoC2       0.00%    passed     99.82%
+ 156  bflC1       0.00%    passed     99.79%
+ 157  bflC16      0.00%    passed     87.94%
+ 158  bflC5       1.00%    passed     93.56%
+ 159  bflC7       0.00%    passed     99.53%
+ 160  bflN11      0.00%    passed     67.74%
+ 161  bflN12      0.00%    passed     74.83%
+ 162  bflN13      0.00%    passed     96.61%
+ 163  bflN15      0.00%    passed     29.19%
+ 164  bflN2       1.49%    passed     65.23%
+ 165  bflN21      0.00%    passed     45.94%
+ 166  bflN6       0.00%    passed     83.07%
+ 167  bflN8       0.00%    passed     97.19%
+ 168  bgiC1       2.49%    passed      7.58%
+ 169  bhuC1       0.00%    passed     99.86%
+ 170  bhuC2       0.00%    passed     89.20%
+ 171  bimC1       0.00%    passed     89.20%
+ 172  bimC2       0.00%    passed     99.86%
+ 173  bkiC1       0.00%    passed     99.89%
+ 174  bkiC2       0.00%    passed     86.49%
+ 175  blaN1       0.00%    passed     99.82%
+ 176  blaN2       0.50%    passed     98.92%
+ 177  bmaN1       0.00%    passed     95.03%
+ 178  bmaN2       0.00%    passed     92.92%
+ 179  bmanC2      0.00%    passed     99.91%
+ 180  bmoC1       0.00%    passed     99.91%
+ 181  bneC1       0.00%    passed     99.82%
+ 182  bneC2       1.00%    passed     98.17%
+ 183  bolC1       0.00%    passed     97.56%
+ 184  bolC2       0.00%    passed     99.47%
+ 185  bolC3       0.50%    passed     98.92%
+ 186  bpeN4       0.00%    passed     99.19%
+ 187  bpeN5       0.00%    passed     99.96%
+ 188  bpeN6       0.00%    passed     99.92%
+ 189  bpyC2       0.00%    passed     99.86%
+ 190  bspC4       0.00%    passed     99.89%
+ 191  bspC6       0.00%    passed     99.76%
+ 192  bspC7       0.00%    passed     99.76%
+ 193  btabN1      1.00%    passed     97.87%
+ 194  bteC2       0.00%    passed     99.86%
+ 195  btrC1       1.00%    passed     98.17%
+ 196  btrC2       0.00%    passed     99.82%
+ 197  bvaC1       0.00%    passed     89.20%
+ 198  bvaC2       0.00%    passed     99.86%
+ 199  bvoC1       0.00%    passed     99.86%
+ 200  bvoC2       0.00%    passed     89.20%
+ 201  cabC1       2.49%    passed     29.27%
+ 202  cacC1       2.49%    passed     29.27%
+ 203  caeC1       2.49%    passed     21.21%
+ 204  cangC1      0.00%    passed    100.00%
+ 205  cangC12     0.00%    passed     98.14%
+ 206  cangC15     0.00%    passed     99.81%
+ 207  cangC16     0.00%    passed     99.77%
+ 208  cangC17     0.00%    passed     99.55%
+ 209  cangC18     0.00%    passed     99.92%
+ 210  cangC20     0.00%    passed     99.43%
+ 211  cangC21     0.00%    passed     99.83%
+ 212  cangC22     0.00%    passed     99.68%
+ 213  cangC23     0.00%    passed     99.64%
+ 214  cangC5      0.00%    passed     98.94%
+ 215  cangC6      0.00%    passed     24.34%
+ 216  cangC8      0.00%    passed     91.16%
+ 217  cangC9      1.00%    passed     80.55%
+ 218  cangN10     0.00%    passed     99.98%
+ 219  cangN11     0.00%    passed     99.93%
+ 220  cangN14     0.00%    passed    100.00%
+ 221  cangN2      0.00%    passed     64.69%
+ 222  cangN3      0.00%    passed     41.84%
+ 223  cangN4      0.00%    passed     79.56%
+ 224  cangN7      0.00%    passed     97.79%
+ 225  cauC1       0.00%    passed     99.88%
+ 226  cauC3       0.00%    passed     98.55%
+ 227  cauC5       0.00%    passed     98.55%
+ 228  cauC7       0.00%    passed     99.62%
+ 229  cauC8       0.00%    passed     99.66%
+ 230  cbrN2       0.00%    passed     97.18%
+ 231  ccaC4       0.00%    passed     95.30%
+ 232  ccalC2      0.00%    passed     99.76%
+ 233  ccapN1      0.00%    passed     98.45%
+ 234  ccapN2      0.00%    passed     99.89%
+ 235  ccarC1      0.00%    passed     99.88%
+ 236  ccarC4      0.00%    passed     99.87%
+ 237  ccarC6      0.50%    passed     99.10%
+ 238  cchC1       2.49%    passed     21.21%
+ 239  cchC1_0     0.00%    passed    100.00%
+ 240  cchC6       0.00%    passed     99.89%
+ 241  cchC7       0.00%    passed     99.79%
+ 242  cchC8       0.00%    passed     99.95%
+ 243  cchC9       0.00%    passed     99.89%
+ 244  cciC1       0.50%    passed     99.98%
+ 245  cciC2       0.00%    passed     99.57%
+ 246  cclC4       0.00%    passed     99.32%
+ 247  cclC5       0.00%    passed     99.32%
+ 248  ccoC1       2.49%    passed     29.27%
+ 249  ccosN2      0.50%    passed     99.86%
+ 250  ccrC2       0.00%    passed     99.93%
+ 251  cfelC1      1.00%    passed     93.62%
+ 252  cfiN1       2.49%    passed     29.27%
+ 253  cflN1       0.00%    passed     99.84%
+ 254  cfloC2      0.00%    passed     99.57%
+ 255  cfrC1       2.49%    passed     21.21%
+ 256  cgaC1       0.00%    passed    100.00%
+ 257  cgaC2       0.00%    passed     99.69%
+ 258  cgaC3       0.00%    passed     99.21%
+ 259  cgaC4       0.00%    passed     99.21%
+ 260  cgaC7       0.00%    passed     99.95%
+ 261  cgiC2       0.00%    passed     99.66%
+ 262  cgiC3       0.00%    passed     99.62%
+ 263  cgiC4       0.00%    passed     99.88%
+ 264  cgiC7       0.00%    passed     99.92%
+ 265  cgigC1      0.00%    passed     99.81%
+ 266  cgigC10     0.00%    passed    100.00%
+ 267  cgigC11     0.00%    passed     99.43%
+ 268  cgigC12     0.00%    passed     99.83%
+ 269  cgigC18     0.00%    passed     91.16%
+ 270  cgigC19     0.00%    passed     97.45%
+ 271  cgigC20     0.00%    passed    100.00%
+ 272  cgigC21     0.00%    passed     96.75%
+ 273  cgigC22     0.00%    passed     99.96%
+ 274  cgigC23     0.00%    passed     99.77%
+ 275  cgigC24     1.00%    passed     80.55%
+ 276  cgigC25     0.00%    passed     99.73%
+ 277  cgigC26     0.00%    passed     85.51%
+ 278  cgigC3      0.00%    passed     97.72%
+ 279  cgigC7      0.00%    passed     99.68%
+ 280  cgigC8      0.00%    passed     99.90%
+ 281  cgigC9      0.00%    passed     99.96%
+ 282  cgigN13     0.00%    passed     99.80%
+ 283  cgigN14     0.00%    passed     74.34%
+ 284  cgigN15     0.00%    passed     97.29%
+ 285  cgigN16     0.00%    passed     85.28%
+ 286  cgigN17     0.00%    passed     24.34%
+ 287  cgigN2      0.00%    passed    100.00%
+ 288  cgigN4      0.00%    passed     79.55%
+ 289  cgigN5      0.00%    passed     99.98%
+ 290  cgigN6      0.00%    passed     99.97%
+ 291  cglC1       0.00%    passed     99.73%
+ 292  cglC1_0     2.49%    passed     21.21%
+ 293  cgoC1       2.49%    passed     29.27%
+ 294  cgoC2       0.00%    passed     99.95%
+ 295  cgoC3       0.00%    passed     99.92%
+ 296  cgoC6       0.00%    passed     99.81%
+ 297  cgrC1       2.49%    passed     19.60%
+ 298  charC4     20.40%    passed     96.33%
+ 299  charC5      0.00%    passed     99.96%
+ 300  chiC1       2.49%    passed     24.00%
+ 301  chisC2      0.00%    passed     99.73%
+ 302  cidC4       0.00%    passed     99.88%
+ 303  cimC1       2.49%    passed      7.75%
+ 304  cinC1       0.50%    passed     99.95%
+ 305  cinsC2      0.00%    passed     57.71%
+ 306  cinsC3      0.00%    passed     99.73%
+ 307  ckaN1       2.49%    passed     25.98%
+ 308  cleN1       0.00%    passed     97.02%
+ 309  cluC1       2.49%    passed     29.27%
+ 310  clumC3      0.00%    passed     99.94%
+ 311  clumC4      0.00%    passed     99.94%
+ 312  clumC6      0.00%    passed     98.93%
+ 313  cmacC2      0.00%    passed     99.98%
+ 314  cmacC3      0.00%    passed     98.73%
+ 315  cmacC4      0.00%    passed     99.56%
+ 316  cmacC5      0.00%    passed     99.94%
+ 317  cmiC3       0.00%    passed     98.18%
+ 318  cnaC1       0.00%    passed     99.50%
+ 319  cnaC1_0     2.49%    passed     27.35%
+ 320  corC1       2.49%    passed     29.27%
+ 321  cpaC1       2.49%    passed     29.27%
+ 322  cphC1       2.49%    passed     37.11%
+ 323  cpipC1      0.00%    passed     99.99%
+ 324  cpipC2      0.00%    passed     96.97%
+ 325  cplC3       0.00%    passed     93.74%
+ 326  cpoC1       2.49%    passed      7.75%
+ 327  cquC1       0.00%    passed     96.97%
+ 328  cquC2       0.00%    passed     99.99%
+ 329  cquaC1      0.00%    passed     99.99%
+ 330  creN1       0.00%    passed     98.68%
+ 331  croC4       0.00%    passed     99.31%
+ 332  cscC1       2.49%    passed     29.27%
+ 333  cscN1       0.00%    passed     99.29%
+ 334  cscN2       0.00%    passed     98.03%
+ 335  cscN3       0.00%    passed     98.03%
+ 336  cseC4       2.49%    passed     93.93%
+ 337  csecC1      1.00%    passed     98.87%
+ 338  csecC2      0.00%    passed     96.13%
+ 339  csepC2      0.00%    passed     87.15%
+ 340  csiC1       2.49%    passed     21.21%
+ 341  csoN1       2.99%    passed     99.65%
+ 342  cspC1       2.49%    passed     19.60%
+ 343  ctaC1       2.49%    passed     29.27%
+ 344  ctrC1       2.49%    passed     22.74%
+ 345  cunC1       0.00%    passed     98.02%
+ 346  cunC5       0.00%    passed     99.90%
+ 347  cunC6       0.00%    passed     99.49%
+ 348  cvaN1       0.00%    passed     99.62%
+ 349  cvaN4       0.00%    passed     99.06%
+ 350  cvaN5       0.00%    passed     99.99%
+ 351  cvaN6       0.00%    passed     99.94%
+ 352  cviC13      0.00%    passed     99.93%
+ 353  cviC14      0.00%    passed     99.97%
+ 354  cviC18      0.00%    passed     87.73%
+ 355  cviC19      0.00%    passed     87.73%
+ 356  cviN1       0.00%    passed     99.33%
+ 357  cviN10      0.00%    passed     99.92%
+ 358  cviN11      0.00%    passed     99.69%
+ 359  cviN12      0.50%    passed     99.57%
+ 360  cviN15      0.00%    passed     98.74%
+ 361  cviN16      0.00%    passed     98.74%
+ 362  cviN17      0.00%    passed     93.73%
+ 363  cviN2       0.00%    passed     98.77%
+ 364  cviN3       0.00%    passed     99.47%
+ 365  cviN4       1.00%    passed     99.98%
+ 366  cviN5       0.00%    passed     99.99%
+ 367  cviN6       0.00%    passed     74.57%
+ 368  cviN7       0.00%    passed     66.53%
+ 369  cviN8       0.00%    passed     99.99%
+ 370  cviN9       0.00%    passed     99.98%
+ 371  dalC1       0.00%    passed    100.00%
+ 372  dalC2       1.49%    passed     99.50%
+ 373  dallC1      0.00%    passed     99.95%
+ 374  dallC2      0.50%    passed     99.54%
+ 375  danC1       0.00%    passed     99.29%
+ 376  danC2       1.00%    passed     99.64%
+ 377  dandC1      0.00%    passed     99.89%
+ 378  dandC2      0.00%    passed     98.69%
+ 379  darN1       0.00%    passed    100.00%
+ 380  darN2       1.00%    passed     99.42%
+ 381  dbiC1       0.00%    passed     99.70%
+ 382  dbiC2       1.00%    passed     99.64%
+ 383  dbuC1       0.00%    passed     99.98%
+ 384  dbuC2       0.00%    passed     98.34%
+ 385  dciC1       0.50%    passed     98.39%
+ 386  dclC4       0.00%    passed    100.00%
+ 387  dclH2       2.49%    passed     35.50%
+ 388  dexN1       2.49%    passed     10.35%
+ 389  dguC1       1.00%    passed     99.64%
+ 390  dguC2       0.00%    passed     99.24%
+ 391  dguaC1      0.00%    passed     99.93%
+ 392  dguaC2      1.00%    passed     99.64%
+ 393  dinC1       0.00%    passed    100.00%
+ 394  dinC2       1.00%    passed     99.42%
+ 395  dlaC1       0.00%    passed     99.86%
+ 396  dlaC3       0.00%    passed     99.96%
+ 397  dlaC4       0.00%    passed     99.99%
+ 398  dlaC5       0.00%    passed     99.93%
+ 399  dlaH6       2.49%    passed     56.02%
+ 400  dmaC1       0.00%    passed     99.70%
+ 401  dmaC2       1.00%    passed     99.64%
+ 402  dmagC1      0.00%    passed     90.53%
+ 403  dmagC2      1.00%    passed     99.57%
+ 404  dmagC3      0.00%    passed     99.88%
+ 405  dmeC1       0.00%    passed     99.49%
+ 406  dmeN2       1.00%    passed     99.64%
+ 407  dmiC1       0.00%    passed     99.60%
+ 408  dmiC2       1.00%    passed     99.64%
+ 409  dnaC1       0.00%    passed    100.00%
+ 410  dnaC2       1.00%    passed     99.42%
+ 411  dnovN1      0.00%    passed     99.73%
+ 412  dnoxN1      0.50%    passed     92.70%
+ 413  dplC2       0.00%    passed     99.89%
+ 414  dpoC1       0.00%    passed     99.59%
+ 415  dpoC10      0.00%    passed     99.69%
+ 416  dpoC11      0.00%    passed     99.69%
+ 417  dpoC12      0.00%    passed    100.00%
+ 418  dpoC13      0.00%    passed     80.26%
+ 419  dpoC15      0.00%    passed    100.00%
+ 420  dpoC18      0.00%    passed     44.52%
+ 421  dpoC20      0.00%    passed     96.58%
+ 422  dpoC22      0.00%    passed     96.58%
+ 423  dpoC23      0.00%    passed     99.98%
+ 424  dpoC4      22.89%    passed     53.61%
+ 425  dpoC5       0.50%    passed     96.26%
+ 426  dpoC6       0.00%    passed     99.87%
+ 427  dpoC7       0.00%    passed     99.87%
+ 428  dpoC8       0.00%    passed     99.83%
+ 429  dpoC9       0.00%    passed    100.00%
+ 430  dpoN14      0.00%    passed    100.00%
+ 431  dpoN16      0.00%    passed     75.10%
+ 432  dpoN17      0.50%    passed     46.63%
+ 433  dpoN21      0.00%    passed    100.00%
+ 434  dpoN3       0.00%    passed     93.93%
+ 435  dponC1      1.00%    passed     99.96%
+ 436  dponC2      0.00%    passed     96.73%
+ 437  dpsC1       0.00%    passed     99.79%
+ 438  dpsC2       1.00%    passed     99.64%
+ 439  dptC1       0.00%    passed     99.98%
+ 440  dptC2       0.00%    passed     99.98%
+ 441  dptC3       0.00%    passed     99.56%
+ 442  dpuC1       1.00%    passed     99.02%
+ 443  dpuC2       0.00%    passed     97.97%
+ 444  dpuC3       0.00%    passed     99.95%
+ 445  dpulC1      0.00%    passed     99.95%
+ 446  dpulC2      1.00%    passed     99.02%
+ 447  dpulC3      0.00%    passed     98.67%
+ 448  dpulC4      0.00%    passed     99.95%
+ 449  dquN1       0.00%    passed     99.93%
+ 450  dquN2       0.00%    passed     99.86%
+ 451  dreN4       0.00%    passed    100.00%
+ 452  dsaC1       0.00%    passed     99.38%
+ 453  dsaC2       1.00%    passed     99.64%
+ 454  dseC1       0.00%    passed     99.70%
+ 455  dseC2       1.00%    passed     99.64%
+ 456  dsiC1       0.00%    passed     99.99%
+ 457  dsiC2       0.00%    passed     98.44%
+ 458  dsimC1      0.00%    passed     99.70%
+ 459  dsimC2      1.00%    passed     99.64%
+ 460  dsimC3      0.00%    passed     99.61%
+ 461  dsimC4      0.00%    passed     98.72%
+ 462  dsimC5      1.00%    passed     99.99%
+ 463  dsuC1       0.00%    passed     99.93%
+ 464  dsuC2       1.00%    passed     99.64%
+ 465  dsubC1      0.00%    passed     99.67%
+ 466  dsubC2      1.00%    passed     99.64%
+ 467  dsuzC1      0.00%    passed     99.67%
+ 468  dsuzC2      1.00%    passed     99.64%
+ 469  dteC1       0.00%    passed     98.43%
+ 470  dteC2       0.50%    passed     99.80%
+ 471  dviC1       1.00%    passed     99.99%
+ 472  dviC2       0.00%    passed     99.61%
+ 473  dvitC1      0.00%    passed     96.42%
+ 474  dwiC1       0.00%    passed     99.96%
+ 475  dwiC2       1.00%    passed     99.64%
+ 476  dyaC1       1.00%    passed     99.64%
+ 477  dyaC2       0.00%    passed     98.80%
+ 478  eafN1       0.50%    passed     89.48%
+ 479  eafN2      20.40%    passed     57.88%
+ 480  eafN3       0.00%    passed     99.98%
+ 481  eafN4       0.00%    passed     96.97%
+ 482  eafN5       0.00%    passed     99.83%
+ 483  ecalC3      0.00%    passed     99.94%
+ 484  ecalC4      0.00%    passed     98.49%
+ 485  ecalC6      0.00%    passed     96.75%
+ 486  ecalC7      0.00%    passed     99.96%
+ 487  ecalH5      2.49%    passed     62.49%
+ 488  ecrC3       0.00%    passed     99.76%
+ 489  ecrC5       0.00%    passed     96.82%
+ 490  edeC1       2.49%    passed      9.36%
+ 491  eelC4       0.00%    passed     99.78%
+ 492  efuC5       0.00%    passed     99.94%
+ 493  efuC6       0.00%    passed     97.38%
+ 494  elaC1       0.00%    passed     99.39%
+ 495  eluC10      0.00%    passed     99.06%
+ 496  eluC4       0.00%    passed     99.82%
+ 497  eluC5       0.00%    passed     99.86%
+ 498  eluC7       0.00%    passed     99.98%
+ 499  eluC8       0.00%    passed     99.87%
+ 500  eluC9       0.00%    passed     99.87%
+ 501  emeN1       2.49%    passed     21.00%
+ 502  emeN2       0.00%    passed     99.86%
+ 503  emeN2_0     2.49%    passed     21.00%
+ 504  emoC1       0.00%    passed     99.92%
+ 505  emoC5       0.00%    passed     99.69%
+ 506  enaC1       0.00%    passed     98.54%
+ 507  enaC4       0.00%    passed    100.00%
+ 508  eolN1       2.49%    passed     19.13%
+ 509  epaN1       0.00%    passed     90.49%
+ 510  epaN2       0.00%    passed     72.08%
+ 511  epaN3       0.50%    passed     87.20%
+ 512  epaN4       0.00%    passed     84.12%
+ 513  epuC1       2.49%    passed     11.79%
+ 514  esiC1       0.00%    passed     99.94%
+ 515  espC2       0.00%    passed     95.62%
+ 516  espC3       1.00%    passed     91.09%
+ 517  espC6       0.00%    passed     99.76%
+ 518  exeN1       2.49%    passed     12.80%
+ 519  farN1       1.00%    passed     99.09%
+ 520  farN2       0.00%    passed     98.95%
+ 521  fcanC1      1.00%    passed     61.19%
+ 522  fcanC2      0.00%    passed     99.97%
+ 523  fcanC3      0.50%    passed     99.64%
+ 524  fcoN1       2.49%    passed     24.75%
+ 525  fflC1       2.49%    passed     24.75%
+ 526  fheC2       0.00%    passed     99.89%
+ 527  fheC7       0.00%    passed     99.48%
+ 528  fheC8       0.00%    passed     99.65%
+ 529  fheN6       0.00%    passed     99.78%
+ 530  focC1       0.00%    passed     99.01%
+ 531  fpoC1       2.49%    passed     24.75%
+ 532  fpsN1       2.49%    passed     24.75%
+ 533  fvaC1       0.00%    passed     88.97%
+ 534  fvaC2       0.00%    passed     99.82%
+ 535  fveN1       2.49%    passed     24.75%
+ 536  gacC5       0.00%    passed     99.78%
+ 537  gacC6       0.00%    passed     99.98%
+ 538  gacC7       0.00%    passed     99.98%
+ 539  gacuC1      0.00%    passed     99.94%
+ 540  gaeC1       0.00%    passed     99.12%
+ 541  gaeC11      0.00%    passed     99.78%
+ 542  gaeC12      0.00%    passed     98.28%
+ 543  gaeC13      0.00%    passed     99.99%
+ 544  gaeC14      0.00%    passed     99.73%
+ 545  gaeC15      0.00%    passed     99.01%
+ 546  gaeC16      0.50%    passed     98.99%
+ 547  gaeC17      0.00%    passed     99.30%
+ 548  gaeC18      0.00%    passed     99.87%
+ 549  gaeC20      0.00%    passed     98.54%
+ 550  gaeC7       0.50%    passed     99.95%
+ 551  gaeC8       1.00%    passed     99.15%
+ 552  gaeC9       0.50%    passed     98.89%
+ 553  gaeN10      0.00%    passed     99.03%
+ 554  gaeN19      0.00%    passed     99.56%
+ 555  gaeN4       0.00%    passed     78.70%
+ 556  gaeN6       0.00%    passed     84.94%
+ 557  gafC4       0.00%    passed     99.22%
+ 558  gafC5       0.00%    passed     98.44%
+ 559  gafC6       0.00%    passed     98.24%
+ 560  gafC7       0.00%    passed     99.98%
+ 561  gfuC1       0.00%    passed     97.46%
+ 562  gfuC2       1.00%    passed     99.70%
+ 563  gmoC1       0.00%    passed     98.84%
+ 564  gmuC3       0.00%    passed     99.27%
+ 565  gmuC4       0.00%    passed     99.39%
+ 566  gmuC6       0.00%    passed     99.99%
+ 567  gmuN5       0.00%    passed     99.99%
+ 568  gocC1       0.00%    passed     97.44%
+ 569  gocC2       0.00%    passed     99.59%
+ 570  gseH1       2.49%    passed     34.03%
+ 571  gtrC1       2.49%    passed     34.17%
+ 572  gtrC2       2.49%    passed     34.17%
+ 573  gwiC1       0.00%    passed     99.26%
+ 574  gwiC2       0.00%    passed     99.95%
+ 575  gwiC4       0.00%    passed     99.26%
+ 576  gwiH5       2.49%    passed     50.76%
+ 577  hamC1       0.00%    passed     99.99%
+ 578  harC2       0.00%    passed     99.45%
+ 579  haxC2       0.00%    passed     91.20%
+ 580  hazC1       0.50%    passed     99.20%
+ 581  hazC2       0.00%    passed     95.07%
+ 582  hbuC4       0.00%    passed     99.56%
+ 583  hcoN4       0.00%    passed     99.68%
+ 584  hfrN1       2.49%    passed     20.21%
+ 585  hhalC1      0.00%    passed     95.88%
+ 586  hhiC1       0.00%    passed     99.99%
+ 587  hhiC3       0.00%    passed     99.87%
+ 588  hilC1       0.00%    passed     99.97%
+ 589  hilC2       1.00%    passed     98.72%
+ 590  hkaC2       0.00%    passed     99.82%
+ 591  hlaN2       0.00%    passed     99.86%
+ 592  hroN1       0.00%    passed     99.71%
+ 593  hroN2       0.00%    passed     98.51%
+ 594  hrubC1      0.00%    passed     94.20%
+ 595  hrubC12     0.00%    passed     99.92%
+ 596  hrubC15     0.50%    passed     94.48%
+ 597  hrubC2      0.00%    passed     98.78%
+ 598  hrubC6      0.00%    passed     99.94%
+ 599  hrubC9      0.00%    passed     99.95%
+ 600  hrubN10     0.00%    passed     96.82%
+ 601  hrubN11     0.00%    passed     44.91%
+ 602  hrubN3      0.00%    passed     96.19%
+ 603  hrubN4      1.99%    passed     95.60%
+ 604  hrubN5      0.00%    passed     95.28%
+ 605  hrubN7      0.00%    passed     97.36%
+ 606  hrubN8      1.00%    passed     99.99%
+ 607  hrufC10     1.00%    passed     99.98%
+ 608  hrufC11     0.50%    passed     98.99%
+ 609  hrufC12     0.00%    passed     97.98%
+ 610  hrufC13     0.50%    passed     96.73%
+ 611  hrufC14     0.50%    passed     99.98%
+ 612  hrufC17     0.00%    passed     99.92%
+ 613  hrufC20     0.00%    passed     99.30%
+ 614  hrufC21     0.00%    passed     99.29%
+ 615  hrufC3      0.00%    passed     98.97%
+ 616  hrufC5      0.00%    passed     97.98%
+ 617  hrufC7      0.00%    passed     99.95%
+ 618  hrufC8      0.00%    passed     99.99%
+ 619  hrufN1      0.00%    passed     93.18%
+ 620  hrufN16     0.00%    passed     97.80%
+ 621  hrufN18     1.00%    passed     94.79%
+ 622  hrufN19     1.00%    passed     99.99%
+ 623  hrufN2      0.00%    passed     16.45%
+ 624  hrufN4      0.00%    passed     96.59%
+ 625  hrufN6      0.00%    passed     95.14%
+ 626  hrufN9      0.00%    passed     48.97%
+ 627  hsalC1      0.00%    passed     99.86%
+ 628  hstC1       0.00%    passed     99.99%
+ 629  hstC5       0.00%    passed     99.95%
+ 630  htrC1       0.00%    passed     99.22%
+ 631  htrN1       2.49%    passed     13.07%
+ 632  hviC1       1.00%    passed     96.48%
+ 633  hvuN1       0.00%    passed     93.56%
+ 634  hvuN2       0.00%    passed     87.44%
+ 635  hzeC2       0.00%    passed     99.45%
+ 636  hzoC2       0.00%    passed     99.82%
+ 637  ielC1       0.00%    passed     96.04%
+ 638  ielC2       0.00%    passed     99.44%
+ 639  ifuC1       0.00%    passed     99.97%
+ 640  ifuC2       0.00%    passed     98.13%
+ 641  ifuC3       0.00%    passed     95.32%
+ 642  ifuC8       0.00%    passed     99.22%
+ 643  ipuC1       0.00%    passed     99.97%
+ 644  ipuC2       0.00%    passed     93.67%
+ 645  ipuC3       0.00%    passed     97.85%
+ 646  ipuC8       0.00%    passed     99.22%
+ 647  iscC1       0.00%    passed     98.96%
+ 648  iscC2       0.00%    passed     99.04%
+ 649  iscC3       0.00%    passed     99.63%
+ 650  kbrN1       2.49%    passed     23.99%
+ 651  kmaC2       0.00%    passed     99.72%
+ 652  kmaC3       0.00%    passed     62.40%
+ 653  kmaC7       0.00%    passed     95.44%
+ 654  kmaN6       0.00%    passed     60.65%
+ 655  lanC25      0.00%    passed     53.06%
+ 656  lanN10      0.00%    passed     99.93%
+ 657  lanN11      0.00%    passed     99.83%
+ 658  lanN13      0.00%    passed     78.26%
+ 659  lanN14      0.00%    passed     78.29%
+ 660  lanN15      0.00%    passed     99.98%
+ 661  lanN16      1.00%    passed    100.00%
+ 662  lanN17      1.00%    passed    100.00%
+ 663  lanN18      0.00%    passed     95.48%
+ 664  lanN19      0.00%    passed     98.47%
+ 665  lanN2       0.00%    passed     98.32%
+ 666  lanN20      0.00%    passed     83.35%
+ 667  lanN21      0.00%    passed     98.93%
+ 668  lanN22      0.00%    passed     98.47%
+ 669  lanN23      0.00%    passed     52.66%
+ 670  lanN24      1.00%    passed    100.00%
+ 671  lanN26      0.00%    passed     91.58%
+ 672  lanN3       0.00%    passed     95.48%
+ 673  lanN4       0.00%    passed     99.93%
+ 674  lanN5       0.00%    passed     83.35%
+ 675  lanN6       0.00%    passed     99.44%
+ 676  lanN7       0.00%    passed     97.95%
+ 677  lanN8       0.00%    passed     99.47%
+ 678  lanN9       0.00%    passed     50.17%
+ 679  lbeC3       0.00%    passed     98.46%
+ 680  lbeC4       0.00%    passed     98.87%
+ 681  lbeC6       0.00%    passed     99.98%
+ 682  lboC1       0.50%    passed     90.00%
+ 683  lboC2       0.00%    passed     99.91%
+ 684  lcaC1       0.00%    passed     99.86%
+ 685  lcaC5       0.00%    passed     99.34%
+ 686  lcaC6       0.00%    passed     99.34%
+ 687  lcaC7       0.00%    passed     99.85%
+ 688  lchH1       2.49%    passed     66.09%
+ 689  lcrC6       0.00%    passed     99.97%
+ 690  lcuC1       1.00%    passed     99.38%
+ 691  lcuC2       0.00%    passed     98.93%
+ 692  ldeN1       0.00%    passed     99.08%
+ 693  ldeN2       0.50%    passed     99.99%
+ 694  lgiN2       1.49%    passed     99.65%
+ 695  lgiN3       0.00%    passed     99.02%
+ 696  lgiN5       0.00%    passed     99.68%
+ 697  lgiN6       0.00%    passed     99.96%
+ 698  lgiN7       0.00%    passed    100.00%
+ 699  lgiN8       0.00%    passed     99.55%
+ 700  lglC1       0.00%    passed     99.93%
+ 701  lhuN1       0.00%    passed     99.81%
+ 702  linC1       2.49%    passed      7.32%
+ 703  lloC1       0.00%    passed     98.88%
+ 704  lloC2       0.00%    passed     94.32%
+ 705  lmiC1       2.49%    passed     15.22%
+ 706  locN3       0.00%    passed    100.00%
+ 707  lpoN1       0.00%    passed     99.92%
+ 708  lpoN2       0.00%    passed     96.76%
+ 709  lpoN3       0.00%    passed     99.65%
+ 710  lpoN4       0.00%    passed     99.57%
+ 711  lpoN5       0.00%    passed     99.97%
+ 712  lroC1       0.00%    passed     99.97%
+ 713  lroC2       0.00%    passed     99.98%
+ 714  lroC5       0.00%    passed     99.90%
+ 715  lroC6       0.00%    passed     99.93%
+ 716  lsaC1       0.50%    passed     99.45%
+ 717  lsaC2       0.00%    passed     99.96%
+ 718  lsiC2       0.00%    passed     99.89%
+ 719  malbN2      0.00%    passed     98.41%
+ 720  mamC4       0.00%    passed     99.95%
+ 721  mamC5       0.00%    passed     99.90%
+ 722  mamC6       0.00%    passed     99.79%
+ 723  manC1       2.49%    passed     22.75%
+ 724  marC11      0.00%    passed     98.37%
+ 725  marC12      0.00%    passed     99.84%
+ 726  marC13      1.00%    passed     95.06%
+ 727  marC14      0.00%    passed     98.24%
+ 728  marC17      0.00%    passed     96.94%
+ 729  marC18      0.00%    passed     99.84%
+ 730  marC19      0.00%    passed     96.15%
+ 731  marC22      0.00%    passed     98.59%
+ 732  marC23      0.00%    passed    100.00%
+ 733  marC27      0.00%    passed     91.38%
+ 734  marC28      0.00%    passed     99.84%
+ 735  marC29      0.00%    passed     99.99%
+ 736  marC3       0.00%    passed     86.25%
+ 737  marC30      0.00%    passed     94.05%
+ 738  marC31      0.00%    passed     96.15%
+ 739  marC32      0.00%    passed     99.83%
+ 740  marC33      0.00%    passed     99.51%
+ 741  marC34      0.00%    passed     99.87%
+ 742  marC35      0.00%    passed     99.81%
+ 743  marC4       0.00%    passed     88.51%
+ 744  marC8       0.00%    passed     99.87%
+ 745  marN1       0.00%    passed     82.69%
+ 746  marN15      1.00%    passed     99.99%
+ 747  marN16      1.00%    passed     99.99%
+ 748  marN2       0.00%    passed     82.91%
+ 749  marN20      0.00%    passed     99.36%
+ 750  marN5       0.00%    passed     88.51%
+ 751  marN6       0.00%    passed     88.31%
+ 752  marN7       0.00%    passed     88.31%
+ 753  marmC4      0.00%    passed    100.00%
+ 754  marmC5      0.00%    passed     99.97%
+ 755  masC1       0.00%    passed     99.98%
+ 756  masC2       0.00%    passed     99.98%
+ 757  masC8       0.00%    passed     99.00%
+ 758  mboC1       0.00%    passed     99.77%
+ 759  mboC5       0.00%    passed     99.97%
+ 760  mboC6       0.00%    passed     99.90%
+ 761  mboC7       0.00%    passed     99.84%
+ 762  mcaC1       2.49%    passed     12.67%
+ 763  mcalC1      0.00%    passed     80.35%
+ 764  mcalC10     0.00%    passed     99.91%
+ 765  mcalC11     0.00%    passed     81.12%
+ 766  mcalC12     0.00%    passed    100.00%
+ 767  mcalC13     1.00%    passed     98.86%
+ 768  mcalC16     0.50%    passed     96.71%
+ 769  mcalC20     0.00%    passed     79.78%
+ 770  mcalC21     0.00%    passed     97.09%
+ 771  mcalC22     1.00%    passed     90.26%
+ 772  mcalC24     0.00%    passed     93.62%
+ 773  mcalC25     0.00%    passed     98.17%
+ 774  mcalC26     0.00%    passed     97.34%
+ 775  mcalC29     0.00%    passed     99.47%
+ 776  mcalC3      0.00%    passed     69.64%
+ 777  mcalC30     0.00%    passed     99.89%
+ 778  mcalC31     0.00%    passed     94.40%
+ 779  mcalC4      0.00%    passed     98.82%
+ 780  mcalC5      0.00%    passed     99.78%
+ 781  mcalC6      0.00%    passed     83.31%
+ 782  mcalC7      0.00%    passed     93.41%
+ 783  mcalC8      0.50%    passed     91.42%
+ 784  mcalC9      0.00%    passed     98.32%
+ 785  mcalN15     0.00%    passed     99.69%
+ 786  mcalN18     0.00%    passed     99.99%
+ 787  mcalN19     0.50%    passed    100.00%
+ 788  mcalN23     0.00%    passed     99.99%
+ 789  mceC5       0.00%    passed     99.82%
+ 790  mciC1       0.00%    passed    100.00%
+ 791  mcyC2       0.00%    passed     99.87%
+ 792  mcyC7       0.00%    passed     99.93%
+ 793  mcyC8       0.00%    passed     99.89%
+ 794  mdeC1       0.00%    passed     99.87%
+ 795  mdolC1      0.00%    passed     99.77%
+ 796  mdolC6      0.00%    passed    100.00%
+ 797  mdolC7      0.00%    passed    100.00%
+ 798  mdolC8      0.00%    passed    100.00%
+ 799  mdolC9      0.00%    passed     99.88%
+ 800  mdomN1      1.00%    passed     99.38%
+ 801  mdomN2      0.00%    passed     99.22%
+ 802  mgeC1       0.50%    passed     77.54%
+ 803  mgeC2       0.00%    passed     99.86%
+ 804  mhyC2       0.00%    passed     99.69%
+ 805  mjuC2       0.00%    passed     99.85%
+ 806  mmeC10      0.00%    passed     99.98%
+ 807  mmeC11     20.40%    passed     99.60%
+ 808  mmeC12      0.00%    passed     99.99%
+ 809  mmeC13      0.00%    passed     99.96%
+ 810  mmeC14      0.00%    passed     99.99%
+ 811  mmeC15      1.00%    passed     99.83%
+ 812  mmeC17      0.00%    passed     75.49%
+ 813  mmeC2       0.00%    passed     99.94%
+ 814  mmeC20      0.00%    passed     80.86%
+ 815  mmeC22      0.00%    passed     79.18%
+ 816  mmeC23      0.00%    passed     91.48%
+ 817  mmeC24      0.00%    passed     76.81%
+ 818  mmeC5       0.00%    passed     99.97%
+ 819  mmeC6       0.00%    passed     90.51%
+ 820  mmeC9       0.00%    passed     99.99%
+ 821  mmeN16      0.00%    passed     56.02%
+ 822  mmeN19      0.00%    passed     71.02%
+ 823  mmeN26      0.00%    passed     99.99%
+ 824  mmeN3       0.00%    passed     74.56%
+ 825  mmeN4       0.00%    passed     80.77%
+ 826  mmeN7       1.00%    passed    100.00%
+ 827  mmeN8       0.00%    passed     99.99%
+ 828  mmurC5      0.00%    passed     99.99%
+ 829  mmurC6      0.00%    passed     99.89%
+ 830  mpeN1       0.00%    passed     94.20%
+ 831  mphC1       0.00%    passed     99.73%
+ 832  mroN1       0.00%    passed     99.86%
+ 833  msaC1       0.00%    passed     94.20%
+ 834  msalC1      0.00%    passed     99.85%
+ 835  msalC5      0.00%    passed    100.00%
+ 836  msalC6      0.00%    passed    100.00%
+ 837  msaxC1      0.00%    passed     99.86%
+ 838  msaxC4      0.00%    passed     99.85%
+ 839  msaxC5      0.00%    passed     99.94%
+ 840  mseC2       0.00%    passed     99.99%
+ 841  myeC10      0.00%    passed     42.94%
+ 842  myeN1       0.00%    passed     32.21%
+ 843  myeN11      0.00%    passed     99.04%
+ 844  myeN12      0.00%    passed     88.35%
+ 845  myeN13      0.00%    passed     39.97%
+ 846  myeN2       0.00%    passed     76.72%
+ 847  myeN3       0.00%    passed     99.99%
+ 848  myeN5       0.00%    passed     99.97%
+ 849  myeN6       0.00%    passed     99.99%
+ 850  myeN7       0.00%    passed     96.78%
+ 851  myeN8       0.00%    passed     99.99%
+ 852  myeN9       0.00%    passed     99.97%
+ 853  mzeC4       0.00%    passed     99.56%
+ 854  nbrC1       0.00%    passed     99.77%
+ 855  nceC1       0.00%    passed     99.25%
+ 856  nceC5       0.00%    passed     99.22%
+ 857  ncrC1       2.49%    passed     32.27%
+ 858  ncrC2       2.49%    passed     32.27%
+ 859  nfaC1       0.00%    passed     99.55%
+ 860  nfaC2       1.49%    passed     99.98%
+ 861  nfaC3       0.00%    passed     99.61%
+ 862  nfuN3       0.00%    passed     99.96%
+ 863  nfulC1      0.00%    passed     99.73%
+ 864  nioC2       0.00%    passed     99.88%
+ 865  nlecC1      1.49%    passed     99.98%
+ 866  nlecC2      0.00%    passed     99.55%
+ 867  nlecC3      0.00%    passed     99.61%
+ 868  nluC1       1.49%    passed     98.57%
+ 869  npaH3       2.49%    passed     61.12%
+ 870  npiC1       0.00%    passed     99.55%
+ 871  npiC2       1.49%    passed     99.98%
+ 872  npiC3       0.00%    passed     99.61%
+ 873  nteC1       2.49%    passed     32.27%
+ 874  nveN1       0.00%    passed     39.88%
+ 875  nveN2       0.00%    passed     98.74%
+ 876  nveN3       0.00%    passed     97.28%
+ 877  nvesN1      1.00%    passed     99.82%
+ 878  nvesN2      0.00%    passed    100.00%
+ 879  nviC2       0.00%    passed     99.64%
+ 880  nvirC1      0.00%    passed     99.61%
+ 881  nvirC2      0.00%    passed     99.55%
+ 882  nvirC3      1.49%    passed     99.98%
+ 883  oabN1       0.00%    passed     99.86%
+ 884  oabN2       0.50%    passed     99.72%
+ 885  oauC1       0.00%    passed     99.76%
+ 886  oauC4       0.00%    passed     99.54%
+ 887  oauC6       0.00%    passed     99.97%
+ 888  oauH7       2.49%    passed     58.00%
+ 889  obiC1       0.00%    passed     99.92%
+ 890  obiC2       0.00%    passed     98.00%
+ 891  obiC5       0.00%    passed     97.10%
+ 892  obiC8       0.00%    passed     91.87%
+ 893  obiC9       0.00%    passed     74.83%
+ 894  obiN10      0.00%    passed     99.64%
+ 895  obiN6       0.00%    passed     55.73%
+ 896  obicC2      0.50%    passed     99.91%
+ 897  obirC2      0.00%    passed     99.64%
+ 898  obrC2       0.00%    passed     99.91%
+ 899  oedC10      0.00%    passed     99.94%
+ 900  oedC11      0.00%    passed     99.94%
+ 901  oedC12      0.00%    passed     99.40%
+ 902  oedC13      0.50%    passed     95.64%
+ 903  oedC14      0.00%    passed     99.93%
+ 904  oedC15      0.00%    passed     99.99%
+ 905  oedC3       0.00%    passed     97.32%
+ 906  oedC4       0.00%    passed     99.41%
+ 907  oedC6       0.00%    passed     99.73%
+ 908  oedC7       0.00%    passed     69.29%
+ 909  oedN1       0.00%    passed     99.38%
+ 910  oedN2       1.00%    passed     23.15%
+ 911  oedN5       0.00%    passed     99.99%
+ 912  oedN9       0.00%    passed     55.38%
+ 913  ofaN1       0.00%    passed     87.71%
+ 914  ofaN2       0.00%    passed     97.52%
+ 915  ogoC6       0.00%    passed     99.53%
+ 916  ogoC7       0.00%    passed     99.78%
+ 917  ogoC8       0.00%    passed     99.82%
+ 918  okeC1       0.00%    passed     99.82%
+ 919  okeC2       0.00%    passed     99.53%
+ 920  okeC4       0.00%    passed     99.78%
+ 921  okiC3       0.00%    passed     99.78%
+ 922  okiC5       0.00%    passed     99.82%
+ 923  okiC9       0.00%    passed     99.53%
+ 924  olaN3       0.00%    passed     99.24%
+ 925  omeC4       0.00%    passed     99.76%
+ 926  omeC5       0.00%    passed     96.61%
+ 927  omyC2       0.00%    passed     99.78%
+ 928  omyC3       0.00%    passed     99.53%
+ 929  omyC8       0.00%    passed     99.82%
+ 930  oneC2       0.00%    passed     99.53%
+ 931  oneC3       0.00%    passed     99.82%
+ 932  oneC6       0.00%    passed     99.78%
+ 933  oniC4       0.00%    passed    100.00%
+ 934  oniC5       0.00%    passed     99.54%
+ 935  oniC6       0.00%    passed     99.76%
+ 936  oopC1       2.49%    passed      9.73%
+ 937  osiC1       0.00%    passed     95.04%
+ 938  osiC10      0.00%    passed     79.81%
+ 939  osiC11      0.00%    passed     96.38%
+ 940  osiC12      0.00%    passed     95.52%
+ 941  osiC2       0.00%    passed     99.80%
+ 942  osiC4       0.00%    passed     99.14%
+ 943  osiC6       0.50%    passed     73.27%
+ 944  osiN5       0.00%    passed     64.59%
+ 945  osiN8       0.00%    passed     56.63%
+ 946  osiN9       0.00%    passed     68.03%
+ 947  otaN1       0.00%    passed     64.09%
+ 948  otaN3       0.00%    passed     99.96%
+ 949  otaN4       0.00%    passed     99.96%
+ 950  otaN5       0.00%    passed    100.00%
+ 951  otaN6       0.00%    passed     99.81%
+ 952  otsC2       0.00%    passed     99.78%
+ 953  otsC4       0.00%    passed     99.82%
+ 954  otsC6       0.00%    passed     99.53%
+ 955  paeC2       0.00%    passed     99.97%
+ 956  panN1       2.49%    passed     26.41%
+ 957  pannC2      0.50%    passed     95.42%
+ 958  parN1       2.49%    passed     21.46%
+ 959  pargN1      2.49%    passed     16.17%
+ 960  patN1       2.49%    passed     21.36%
+ 961  pbaC1       0.00%    passed     99.73%
+ 962  pbaC2       0.50%    passed     99.47%
+ 963  pboN1       2.49%    passed     13.86%
+ 964  pbrC1       0.00%    passed     98.15%
+ 965  pcaC1       2.49%    passed     27.07%
+ 966  pcaC1_0     0.00%    passed     99.50%
+ 967  pcaC10      0.50%    passed     99.11%
+ 968  pcaC11      0.00%    passed     97.78%
+ 969  pcaC3       0.50%    passed     99.96%
+ 970  pcaC6       0.00%    passed     99.92%
+ 971  pcaN4       0.50%    passed     97.79%
+ 972  pcaN5       0.00%    passed     97.81%
+ 973  pcaN7       0.50%    passed     91.48%
+ 974  pcaN8       0.00%    passed     22.88%
+ 975  pcaN9       0.00%    passed     59.69%
+ 976  pcanN1      0.00%    passed     99.86%
+ 977  pcanN1_0    2.49%    passed     21.46%
+ 978  pcatC1      2.49%    passed     29.40%
+ 979  pcauN1      0.00%    passed     94.45%
+ 980  pcauN2      0.00%    passed     85.31%
+ 981  pcauN4      0.00%    passed     99.97%
+ 982  pcauN7      0.00%    passed     99.89%
+ 983  pchC1       1.00%    passed     99.97%
+ 984  pchN1       2.49%    passed     18.39%
+ 985  pclC1       0.00%    passed     99.99%
+ 986  pdaC1       2.49%    passed     26.31%
+ 987  pdaN1       0.00%    passed     85.59%
+ 988  pdaN2       0.50%    passed     79.82%
+ 989  pdaN3       0.50%    passed     72.92%
+ 990  pdaN4       0.00%    passed     89.45%
+ 991  pdoN1       0.00%    passed     99.86%
+ 992  pflC3       0.00%    passed     99.65%
+ 993  pflC5       0.00%    passed     97.59%
+ 994  pflC6       0.00%    passed     99.85%
+ 995  pfluC1      0.00%    passed     99.65%
+ 996  pfluC5      0.00%    passed     96.83%
+ 997  pfluC6      0.00%    passed     99.93%
+ 998  pfoC6       0.00%    passed     99.96%
+ 999  pfoN1       0.00%    passed     99.59%
+1000  pfoN5       0.00%    passed     97.13%
+1001  pfuC1       0.00%    passed     99.86%
+1002  pgeC1       0.00%    passed     99.96%
+1003  pgoC2       0.00%    passed     99.99%
+1004  pgrN1       2.49%    passed     38.13%
+1005  pgrN2       0.00%    passed     99.81%
+1006  phoN1       2.49%    passed     13.32%
+1007  phuN1       2.49%    passed     22.75%
+1008  phyC4       0.00%    passed     99.99%
+1009  phyC5       0.00%    passed     98.04%
+1010  phyC6       0.00%    passed     95.74%
+1011  phyC7       0.00%    passed     99.95%
+1012  phyC8       0.00%    passed     99.94%
+1013  pinC2       0.00%    passed     99.45%
+1014  pjaC1       1.00%    passed     99.97%
+1015  pkiN4       0.00%    passed     99.99%
+1016  plaC3       0.00%    passed     99.96%
+1017  plaN1       2.49%    passed      7.39%
+1018  plaN2       0.00%    passed     99.59%
+1019  plaN4       0.00%    passed     95.79%
+1020  pleoC1      0.00%    passed     99.77%
+1021  pleoC5      0.00%    passed     99.85%
+1022  pleoC6      0.00%    passed     99.90%
+1023  pmacC2      0.00%    passed     99.99%
+1024  pmagC2      0.00%    passed     99.99%
+1025  pmagC5      0.00%    passed     99.75%
+1026  pmarC10     0.00%    passed     99.64%
+1027  pmarC6      0.00%    passed     99.17%
+1028  pmarC8      0.00%    passed     99.67%
+1029  pmarC9      0.00%    passed     99.79%
+1030  pmaxC10     0.00%    passed     98.91%
+1031  pmaxC11     0.00%    passed     99.97%
+1032  pmaxC2      0.00%    passed     99.99%
+1033  pmaxC3      0.00%    passed     99.94%
+1034  pmaxC5      0.00%    passed     97.46%
+1035  pmaxN1      0.00%    passed     58.99%
+1036  pmaxN12     0.00%    passed     61.82%
+1037  pmaxN4      0.00%    passed     99.64%
+1038  pmaxN6      0.00%    passed     99.99%
+1039  pmaxN7      0.00%    passed     82.58%
+1040  pmaxN8      0.00%    passed     99.10%
+1041  pmaxN9      0.00%    passed     99.99%
+1042  pmeC4       0.00%    passed     99.48%
+1043  pmeN1       0.00%    passed     95.79%
+1044  pmeN3       0.00%    passed     66.09%
+1045  pmeN6       0.00%    passed     99.59%
+1046  pmiC1       2.49%    passed     33.55%
+1047  pmoC1       0.00%    passed     99.96%
+1048  pmoN1       2.49%    passed     18.39%
+1049  pnaC4       0.00%    passed     99.97%
+1050  pnapC1      0.00%    passed     98.15%
+1051  polN3       0.00%    passed     99.99%
+1052  porC1       2.49%    passed     31.16%
+1053  porC2       2.49%    passed     31.16%
+1054  ppeC1       1.00%    passed     97.06%
+1055  ppeN1       2.49%    passed     34.17%
+1056  pplC1       0.00%    passed     99.99%
+1057  pplC5       0.00%    passed     99.96%
+1058  ppoN2       0.00%    passed    100.00%
+1059  ppolC1      0.50%    passed     99.78%
+1060  ppolC2      0.50%    passed     99.78%
+1061  ppolC4      0.00%    passed     99.86%
+1062  pprC1       0.00%    passed     99.93%
+1063  pprC4       0.00%    passed     99.94%
+1064  ppunC4      0.00%    passed     99.82%
+1065  ppunC5      0.00%    passed    100.00%
+1066  ppunC6      0.00%    passed     99.76%
+1067  ppyC1       0.00%    passed     99.72%
+1068  ppyC2       0.00%    passed     99.79%
+1069  pranC1      0.00%    passed     99.48%
+1070  pranC2      0.00%    passed     99.93%
+1071  prapC2      0.00%    passed     98.15%
+1072  priN1       2.49%    passed      7.39%
+1073  pruN1       2.49%    passed     18.39%
+1074  pseC2       0.00%    passed     99.43%
+1075  pseC3       0.00%    passed     99.96%
+1076  pseC4       0.00%    passed     99.24%
+1077  pseC5       0.00%    passed     99.97%
+1078  psoN1       2.49%    passed     23.24%
+1079  psopN1      2.49%    passed     18.27%
+1080  pspC6       0.00%    passed     99.62%
+1081  pspC8       0.00%    passed     99.78%
+1082  pspH2       2.49%    passed     66.55%
+1083  psuC1       2.49%    passed     26.77%
+1084  ptepC1      0.00%    passed     99.79%
+1085  ptepC2      0.00%    passed     99.68%
+1086  ptepC3      0.00%    passed     99.86%
+1087  ptetC1      0.00%    passed     99.90%
+1088  ptetC2      0.00%    passed     99.85%
+1089  ptetC3      0.00%    passed     99.99%
+1090  ptriC1      0.00%    passed     99.93%
+1091  pveN1       2.49%    passed     32.34%
+1092  pvuC10      0.00%    passed    100.00%
+1093  pvuC12      0.00%    passed    100.00%
+1094  pvuC13      0.00%    passed     99.99%
+1095  pvuC2       0.00%    passed     99.34%
+1096  pvuC3       0.50%    passed    100.00%
+1097  pvuC4       0.00%    passed     99.20%
+1098  pvuC5       0.00%    passed    100.00%
+1099  pvuC6       0.00%    passed     99.99%
+1100  pvuC8       0.00%    passed     81.31%
+1101  pvuN1       0.00%    passed     97.05%
+1102  pvuN7       0.00%    passed     62.70%
+1103  pvuN9       0.00%    passed     38.17%
+1104  pxuN1       0.00%    passed    100.00%
+1105  pxyC2       0.00%    passed     99.70%
+1106  rmaC1       0.00%    passed     94.20%
+1107  rmaN1       2.49%    passed     17.30%
+1108  rmiC1       0.00%    passed     99.78%
+1109  rmiC2       0.00%    passed     98.31%
+1110  rpoC1       0.00%    passed     99.39%
+1111  rpoC2       1.00%    passed     98.17%
+1112  rsaC1       0.00%    passed     98.31%
+1113  rsaC2       0.00%    passed     98.31%
+1114  rsaC3       0.00%    passed     99.94%
+1115  rtyC3       0.00%    passed     96.98%
+1116  rzeC4       0.00%    passed     99.97%
+1117  rzeN1       1.00%    passed     98.17%
+1118  rzeN2       0.00%    passed     99.39%
+1119  rzeN3       0.00%    passed    100.00%
+1120  sacC1       0.00%    passed     98.70%
+1121  salN1       2.49%    passed     21.85%
+1122  salN5       0.00%    passed     99.47%
+1123  salN6       0.00%    passed     99.53%
+1124  samC1       0.50%    passed     99.92%
+1125  samC2       1.00%    passed     96.10%
+1126  sanN4       0.00%    passed     99.80%
+1127  sanN7       0.00%    passed     99.87%
+1128  sanN8       0.00%    passed     99.91%
+1129  sanN9       0.00%    passed     99.96%
+1130  sapC1       2.49%    passed     20.72%
+1131  sarC2       0.00%    passed     99.83%
+1132  sarC5       0.00%    passed     99.26%
+1133  sauC3       0.00%    passed     99.92%
+1134  sauC4       0.00%    passed     99.86%
+1135  sauC5       0.00%    passed     97.74%
+1136  sauC6       0.00%    passed     99.36%
+1137  sboH2       2.49%    passed     50.55%
+1138  scalN1      1.00%    passed     99.38%
+1139  scanC1      0.50%    passed     99.92%
+1140  scanC2      1.00%    passed     96.10%
+1141  scanC4      1.99%    passed     93.65%
+1142  scanC6      1.00%    passed     97.05%
+1143  sceC1       2.49%    passed     56.01%
+1144  schC1       0.00%    passed     99.99%
+1145  schC2       0.00%    passed     99.60%
+1146  schC4       0.00%    passed     99.57%
+1147  sclC1       0.00%    passed     78.12%
+1148  sclC2       0.00%    passed     96.51%
+1149  sclC3       0.50%    passed     41.28%
+1150  sclC4       0.00%    passed     89.72%
+1151  sclC5       2.99%    passed     92.52%
+1152  sclC6       0.00%    passed     90.26%
+1153  sclC8       0.00%    passed     99.86%
+1154  sclN7       0.00%    passed     91.40%
+1155  sclN9       0.50%    passed     99.99%
+1156  sdiC1       0.00%    passed     99.56%
+1157  sduN4       0.00%    passed     99.80%
+1158  sduN5       0.00%    passed     99.29%
+1159  sdumC1      0.00%    passed     99.95%
+1160  sdumC2      0.00%    passed     99.90%
+1161  seuN1       2.49%    passed     54.29%
+1162  sfaC2       0.00%    passed     96.34%
+1163  sfasC1      0.00%    passed     98.74%
+1164  sfasC5      1.49%    passed     99.64%
+1165  sfasC6      0.50%    passed     97.81%
+1166  sflC1       0.00%    passed     85.33%
+1167  sfoC3       0.00%    passed     99.94%
+1168  sfoC4       0.00%    passed     99.81%
+1169  sfrC2       0.00%    passed     99.98%
+1170  sgrC1       1.00%    passed     93.45%
+1171  sgrC2       0.50%    passed     99.92%
+1172  sgrN1       2.49%    passed     22.75%
+1173  sgraN1      0.50%    passed     99.33%
+1174  sgraN2      0.00%    passed     99.88%
+1175  sgraN3      0.00%    passed     99.91%
+1176  sgraN5      0.00%    passed     99.96%
+1177  sinC2       0.00%    passed     99.82%
+1178  sjaC1       0.00%    passed     99.77%
+1179  sjaC5       0.00%    passed     99.98%
+1180  skuN1       2.49%    passed     56.01%
+1181  slaN1       0.00%    passed     99.90%
+1182  slaN4       0.00%    passed     99.44%
+1183  slaN5       0.00%    passed     99.89%
+1184  sliN2       0.00%    passed     99.95%
+1185  sluC2       0.00%    passed     99.02%
+1186  sluC3       0.00%    passed     99.41%
+1187  sluC4       0.00%    passed     99.96%
+1188  sluC6       0.00%    passed     99.79%
+1189  smaC1       0.00%    passed    100.00%
+1190  smaC2       0.00%    passed     99.94%
+1191  smaC5       0.00%    passed     99.99%
+1192  smeC1       0.00%    passed     97.08%
+1193  smeC2       0.00%    passed     99.98%
+1194  smeC3       0.00%    passed     98.41%
+1195  smiN1       2.49%    passed     43.36%
+1196  snaC1       0.00%    passed     99.85%
+1197  snaC2       0.00%    passed     99.78%
+1198  snaC5       0.00%    passed     99.53%
+1199  sniC1       1.00%    passed     96.10%
+1200  sniC2       0.50%    passed     99.84%
+1201  sorC1       0.00%    passed     99.86%
+1202  sorC3       0.00%    passed     99.05%
+1203  soryC1      1.00%    passed     99.96%
+1204  soryC2      0.00%    passed     99.85%
+1205  soryC3      0.00%    passed     99.14%
+1206  spaC5       0.00%    passed     98.90%
+1207  spaN1       2.49%    passed     51.07%
+1208  spaN3       0.00%    passed     99.90%
+1209  spaN4       0.00%    passed    100.00%
+1210  spiC1       0.50%    passed     99.92%
+1211  spiC2       1.00%    passed     96.10%
+1212  spisN1      0.00%    passed     72.02%
+1213  spisN2      0.50%    passed     70.11%
+1214  spisN3      0.50%    passed     96.63%
+1215  sraC1       0.00%    passed     83.53%
+1216  sraC2       0.00%    passed     99.68%
+1217  srhN4       0.00%    passed     99.96%
+1218  srhN7       0.00%    passed     99.87%
+1219  ssaC4       0.00%    passed     99.16%
+1220  ssaC6       0.00%    passed     99.53%
+1221  ssaC7       0.00%    passed     99.59%
+1222  ssaC8       0.00%    passed     99.42%
+1223  ssaC9       0.00%    passed     98.72%
+1224  sseC2       0.00%    passed     99.73%
+1225  sseC6       0.00%    passed     99.74%
+1226  sseC7       0.00%    passed     99.86%
+1227  sserC1      1.00%    passed     96.10%
+1228  sserC2      0.50%    passed     99.92%
+1229  strC12      0.00%    passed     99.42%
+1230  strC13      0.00%    passed     99.77%
+1231  strC14      0.00%    passed     99.52%
+1232  strC18      0.00%    passed     99.16%
+1233  strC2       0.00%    passed     99.53%
+1234  sumC1       0.00%    passed     99.81%
+1235  sumC5       0.00%    passed     99.96%
+1236  sumC6       0.00%    passed     99.95%
+1237  talC1       0.00%    passed     99.94%
+1238  talC2       0.00%    passed     99.70%
+1239  talC3       0.00%    passed     99.47%
+1240  talC4       0.00%    passed     99.85%
+1241  tamC5       0.00%    passed     99.89%
+1242  tamN1       2.49%    passed     21.91%
+1243  tbeC1       0.00%    passed     99.88%
+1244  tbeC2       0.00%    passed     99.84%
+1245  tbeC3       0.00%    passed     99.92%
+1246  tbeC4       0.00%    passed     99.92%
+1247  tcaC1       0.00%    passed     99.82%
+1248  tcaC2       0.50%    passed     97.06%
+1249  tcoN1       0.00%    passed     99.73%
+1250  tcuC2       0.00%    passed     99.73%
+1251  tcuN1       2.49%    passed     35.73%
+1252  tdaC1       0.00%    passed     99.62%
+1253  tdaC2       1.49%    passed     99.34%
+1254  tfuC4       0.00%    passed     99.93%
+1255  tfuC5       0.00%    passed     98.29%
+1256  tfuC6       0.00%    passed     99.99%
+1257  tfuC7       0.00%    passed     97.76%
+1258  tfuC8       0.00%    passed     99.97%
+1259  tjaC2       0.00%    passed     99.88%
+1260  tjaC5       0.00%    passed     99.82%
+1261  tmaC1       0.00%    passed     99.85%
+1262  tmaC5       0.00%    passed     99.99%
+1263  tmaC6       0.00%    passed     99.37%
+1264  tmaC7       0.00%    passed     99.47%
+1265  tmaN1       2.49%    passed     37.35%
+1266  tmadC1      0.50%    passed     99.90%
+1267  tmadC2      1.00%    passed     98.30%
+1268  tniC2       0.00%    passed     98.49%
+1269  tpaC1       0.00%    passed     99.08%
+1270  tpeN1       2.49%    passed      5.15%
+1271  tprN1       0.00%    passed     99.49%
+1272  truN1       2.49%    passed     12.55%
+1273  tseN2       0.00%    passed     99.73%
+1274  tstC1       2.49%    passed     27.41%
+1275  tteN1       2.49%    passed     17.71%
+1276  tthN1       2.49%    passed     22.13%
+1277  turC2       0.00%    passed     86.69%
+1278  turN1       0.00%    passed     99.42%
+1279  tzeN1       0.00%    passed     99.73%
+1280  uhoC1       2.49%    passed     22.93%
+1281  umaC1       2.49%    passed     22.75%
+1282  ureC1       2.49%    passed      6.92%
+1283  vatC2       0.00%    passed     99.96%
+1284  vcaC2       0.50%    passed     99.90%
+1285  vcarC2      0.00%    passed     99.90%
+1286  vcrC1       0.00%    passed     99.86%
+1287  vdeN1       0.00%    passed     99.97%
+1288  vdeN2       0.50%    passed     98.87%
+1289  vemN1       0.00%    passed     99.73%
+1290  vjaN1       0.00%    passed     99.97%
+1291  vjaN2       0.50%    passed     98.87%
+1292  vpeC1       0.00%    passed     99.86%
+1293  vtaC2       0.00%    passed     99.96%
+1294  vveC1       0.00%    passed     99.86%
+1295  vvuC1       0.00%    passed     99.86%
+1296  wauN1       0.00%    passed     99.86%
+1297  worC1       2.49%    passed     17.65%
+1298  xcoC2       0.00%    passed     99.22%
+1299  xcoC5       0.00%    passed     98.33%
+1300  xcoC6       0.00%    passed     98.01%
+1301  xglC3       0.00%    passed     99.85%
+1302  xglC4       0.00%    passed     99.98%
+1303  xglC5       0.00%    passed     99.85%
+1304  xheC3       0.00%    passed     99.77%
+1305  xheC4       0.00%    passed     98.01%
+1306  xheC6       0.00%    passed     95.55%
+1307  xheC7       0.00%    passed     99.95%
+1308  xlaC1       0.00%    passed     98.16%
+1309  xlaC2       0.00%    passed     97.27%
+1310  xmaN4       0.00%    passed     99.22%
+1311  xmaN5       0.00%    passed     99.88%
+1312  xmaN6       0.00%    passed     98.01%
+1313  xmaN7       0.00%    passed     95.55%
+1314  xspN1       0.00%    passed     99.02%
+1315  xteC1       0.00%    passed     99.98%
+1316  xteC6       0.00%    passed     99.97%
+1317  xtrC5       0.50%    passed     97.02%
+1318  zceC2       0.00%    passed     99.93%
+1319  zcuC1       0.00%    passed     98.57%
+1320  zcuC2       0.00%    passed     99.89%
+1321  zneN1       0.50%    passed     96.12%
+****  TOTAL       0.40%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: aalbC2 is identical to aaeN2 but kept for subsequent analysis
+NOTE: aaqC2 is identical to aalC1 but kept for subsequent analysis
+NOTE: cpipC1 is identical to aalbC1 but kept for subsequent analysis
+NOTE: asaC2 is identical to aaloC4 but kept for subsequent analysis
+NOTE: asaC1 is identical to aaloC5 but kept for subsequent analysis
+NOTE: acoC1 is identical to aarC1 but kept for subsequent analysis
+NOTE: acoC2 is identical to aarC2 but kept for subsequent analysis
+NOTE: hbuC4 is identical to acalC1 but kept for subsequent analysis
+NOTE: acolN1 is identical to acepN1 but kept for subsequent analysis
+NOTE: afloC1 is identical to acerC1 but kept for subsequent analysis
+NOTE: amiN1 is identical to adiN2 but kept for subsequent analysis
+NOTE: alabC1 is identical to adoC1 but kept for subsequent analysis
+NOTE: alabC2 is identical to adoC2 but kept for subsequent analysis
+NOTE: amarC2 is identical to afunC2 but kept for subsequent analysis
+NOTE: apiC1 is identical to agoC1 but kept for subsequent analysis
+NOTE: sauC6 is identical to alaC5 but kept for subsequent analysis
+NOTE: anilC1 is identical to amoC2 but kept for subsequent analysis
+NOTE: aruC4 is identical to aruC13 but kept for subsequent analysis
+NOTE: aruH9 is identical to aruH11 but kept for subsequent analysis
+NOTE: bhuC2 is identical to bbifC2 but kept for subsequent analysis
+NOTE: blaN2 is identical to bdoC1 but kept for subsequent analysis
+NOTE: blaN1 is identical to bdoC2 but kept for subsequent analysis
+NOTE: bmoC1 is identical to bmanC2 but kept for subsequent analysis
+NOTE: btrC1 is identical to bneC2 but kept for subsequent analysis
+NOTE: bspC7 is identical to bspC6 but kept for subsequent analysis
+NOTE: cacC1 is identical to cabC1 but kept for subsequent analysis
+NOTE: cchC1 is identical to caeC1 but kept for subsequent analysis
+NOTE: cgigC10 is identical to cangC1 but kept for subsequent analysis
+NOTE: cgigC1 is identical to cangC15 but kept for subsequent analysis
+NOTE: cgigC23 is identical to cangC16 but kept for subsequent analysis
+NOTE: cgigC11 is identical to cangC20 but kept for subsequent analysis
+NOTE: cgigC12 is identical to cangC21 but kept for subsequent analysis
+NOTE: cgigC7 is identical to cangC22 but kept for subsequent analysis
+NOTE: cgigN17 is identical to cangC6 but kept for subsequent analysis
+NOTE: cgigC18 is identical to cangC8 but kept for subsequent analysis
+NOTE: cgigC24 is identical to cangC9 but kept for subsequent analysis
+NOTE: cgigN2 is identical to cangN14 but kept for subsequent analysis
+NOTE: ccarC1 is identical to cauC1 but kept for subsequent analysis
+NOTE: cauC5 is identical to cauC3 but kept for subsequent analysis
+NOTE: cgiC3 is identical to cauC7 but kept for subsequent analysis
+NOTE: cgiC2 is identical to cauC8 but kept for subsequent analysis
+NOTE: zcuC2 is identical to ccapN2 but kept for subsequent analysis
+NOTE: sanN7 is identical to ccarC4 but kept for subsequent analysis
+NOTE: cclC5 is identical to cclC4 but kept for subsequent analysis
+NOTE: cpoC1 is identical to cimC1 but kept for subsequent analysis
+NOTE: cscN3 is identical to cscN2 but kept for subsequent analysis
+NOTE: cviC19 is identical to cviC18 but kept for subsequent analysis
+NOTE: cviN16 is identical to cviN15 but kept for subsequent analysis
+NOTE: dbiC2 is identical to danC2 but kept for subsequent analysis
+NOTE: dnaC1 is identical to darN1 but kept for subsequent analysis
+NOTE: dinC2 is identical to darN2 but kept for subsequent analysis
+NOTE: dmaC1 is identical to dbiC1 but kept for subsequent analysis
+NOTE: dsuC1 is identical to dguaC1 but kept for subsequent analysis
+NOTE: dpoC11 is identical to dpoC10 but kept for subsequent analysis
+NOTE: dpoC22 is identical to dpoC20 but kept for subsequent analysis
+NOTE: soryC1 is identical to dponC1 but kept for subsequent analysis
+NOTE: dpulC2 is identical to dpuC1 but kept for subsequent analysis
+NOTE: dpulC1 is identical to dpuC3 but kept for subsequent analysis
+NOTE: nfaC3 is identical to dsimC3 but kept for subsequent analysis
+NOTE: dsuzC1 is identical to dsubC1 but kept for subsequent analysis
+NOTE: espC6 is identical to ecrC3 but kept for subsequent analysis
+NOTE: eluC9 is identical to eluC8 but kept for subsequent analysis
+NOTE: emeN2_0 is identical to emeN1 but kept for subsequent analysis
+NOTE: fflC1 is identical to fcoN1 but kept for subsequent analysis
+NOTE: sinC2 is identical to fvaC2 but kept for subsequent analysis
+NOTE: xcoC2 is identical to gafC4 but kept for subsequent analysis
+NOTE: gtrC2 is identical to gtrC1 but kept for subsequent analysis
+NOTE: gwiC4 is identical to gwiC1 but kept for subsequent analysis
+NOTE: hzeC2 is identical to harC2 but kept for subsequent analysis
+NOTE: hstC1 is identical to hhiC1 but kept for subsequent analysis
+NOTE: hrufC7 is identical to hrubC9 but kept for subsequent analysis
+NOTE: hrufN19 is identical to hrubN8 but kept for subsequent analysis
+NOTE: hrufC5 is identical to hrufC12 but kept for subsequent analysis
+NOTE: ipuC1 is identical to ifuC1 but kept for subsequent analysis
+NOTE: ipuC8 is identical to ifuC8 but kept for subsequent analysis
+NOTE: lanN24 is identical to lanN16 but kept for subsequent analysis
+NOTE: lanN3 is identical to lanN18 but kept for subsequent analysis
+NOTE: lanN22 is identical to lanN19 but kept for subsequent analysis
+NOTE: lanN5 is identical to lanN20 but kept for subsequent analysis
+NOTE: lcaC6 is identical to lcaC5 but kept for subsequent analysis
+NOTE: mdomN1 is identical to lcuC1 but kept for subsequent analysis
+NOTE: phuN1 is identical to manC1 but kept for subsequent analysis
+NOTE: marC18 is identical to marC12 but kept for subsequent analysis
+NOTE: marC31 is identical to marC19 but kept for subsequent analysis
+NOTE: marC8 is identical to marC34 but kept for subsequent analysis
+NOTE: marN5 is identical to marC4 but kept for subsequent analysis
+NOTE: marN16 is identical to marN15 but kept for subsequent analysis
+NOTE: marN7 is identical to marN6 but kept for subsequent analysis
+NOTE: xteC1 is identical to masC2 but kept for subsequent analysis
+NOTE: msalC5 is identical to mdolC6 but kept for subsequent analysis
+NOTE: msalC6 is identical to mdolC8 but kept for subsequent analysis
+NOTE: mmeC9 is identical to mmeC14 but kept for subsequent analysis
+NOTE: pmaxN9 is identical to myeN3 but kept for subsequent analysis
+NOTE: ncrC2 is identical to ncrC1 but kept for subsequent analysis
+NOTE: nlecC2 is identical to nfaC1 but kept for subsequent analysis
+NOTE: nlecC1 is identical to nfaC2 but kept for subsequent analysis
+NOTE: oniC6 is identical to oauC1 but kept for subsequent analysis
+NOTE: oniC5 is identical to oauC4 but kept for subsequent analysis
+NOTE: okeC2 is identical to ogoC6 but kept for subsequent analysis
+NOTE: okeC4 is identical to ogoC7 but kept for subsequent analysis
+NOTE: okeC1 is identical to ogoC8 but kept for subsequent analysis
+NOTE: pcanN1_0 is identical to parN1 but kept for subsequent analysis
+NOTE: pnapC1 is identical to pbrC1 but kept for subsequent analysis
+NOTE: pjaC1 is identical to pchC1 but kept for subsequent analysis
+NOTE: pmoN1 is identical to pchN1 but kept for subsequent analysis
+NOTE: pfluC1 is identical to pflC3 but kept for subsequent analysis
+NOTE: plaC3 is identical to pfoC6 but kept for subsequent analysis
+NOTE: plaN2 is identical to pfoN1 but kept for subsequent analysis
+NOTE: tfuC6 is identical to phyC4 but kept for subsequent analysis
+NOTE: priN1 is identical to plaN1 but kept for subsequent analysis
+NOTE: pmeN1 is identical to plaN4 but kept for subsequent analysis
+NOTE: porC2 is identical to porC1 but kept for subsequent analysis
+NOTE: pxuN1 is identical to ppoN2 but kept for subsequent analysis
+NOTE: ppolC2 is identical to ppolC1 but kept for subsequent analysis
+NOTE: rsaC1 is identical to rmiC2 but kept for subsequent analysis
+NOTE: rzeN2 is identical to rpoC1 but kept for subsequent analysis
+NOTE: scanC1 is identical to samC1 but kept for subsequent analysis
+NOTE: scanC2 is identical to samC2 but kept for subsequent analysis
+NOTE: sgraN5 is identical to sanN9 but kept for subsequent analysis
+NOTE: skuN1 is identical to sceC1 but kept for subsequent analysis
+NOTE: strC18 is identical to ssaC4 but kept for subsequent analysis
+NOTE: strC12 is identical to ssaC8 but kept for subsequent analysis
+NOTE: tmaC7 is identical to talC3 but kept for subsequent analysis
+NOTE: tmaC1 is identical to talC4 but kept for subsequent analysis
+NOTE: tbeC4 is identical to tbeC3 but kept for subsequent analysis
+NOTE: vtaC2 is identical to vatC2 but kept for subsequent analysis
+NOTE: vjaN1 is identical to vdeN1 but kept for subsequent analysis
+NOTE: vjaN2 is identical to vdeN2 but kept for subsequent analysis
+NOTE: xheC4 is identical to xcoC6 but kept for subsequent analysis
+NOTE: xmaN7 is identical to xheC6 but kept for subsequent analysis
+NOTE: 137 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: acrC1 (identical to aaeN2) is ignored but added at the end
+NOTE: cpipC2 (identical to aaeN2) is ignored but added at the end
+NOTE: cquC1 (identical to aaeN2) is ignored but added at the end
+NOTE: adaC1 (identical to aalC1) is ignored but added at the end
+NOTE: cquC2 (identical to aalbC1) is ignored but added at the end
+NOTE: agaN2 (identical to aarC1) is ignored but added at the end
+NOTE: amaC1 (identical to aarC1) is ignored but added at the end
+NOTE: amarC1 (identical to aarC1) is ignored but added at the end
+NOTE: amerC2 (identical to aarC1) is ignored but added at the end
+NOTE: astC1 (identical to aarC1) is ignored but added at the end
+NOTE: agaN1 (identical to aarC2) is ignored but added at the end
+NOTE: amaC2 (identical to aarC2) is ignored but added at the end
+NOTE: amerC1 (identical to aarC2) is ignored but added at the end
+NOTE: astC2 (identical to aarC2) is ignored but added at the end
+NOTE: mzeC4 (identical to acalC1) is ignored but added at the end
+NOTE: sdiC1 (identical to acalC1) is ignored but added at the end
+NOTE: aecN1 (identical to acepN1) is ignored but added at the end
+NOTE: chisC2 (identical to acepN1) is ignored but added at the end
+NOTE: mphC1 (identical to acepN1) is ignored but added at the end
+NOTE: nfulC1 (identical to acepN1) is ignored but added at the end
+NOTE: pbaC1 (identical to acepN1) is ignored but added at the end
+NOTE: tcoN1 (identical to acepN1) is ignored but added at the end
+NOTE: tcuC2 (identical to acepN1) is ignored but added at the end
+NOTE: tseN2 (identical to acepN1) is ignored but added at the end
+NOTE: tzeN1 (identical to acepN1) is ignored but added at the end
+NOTE: vemN1 (identical to acepN1) is ignored but added at the end
+NOTE: amelC2 (identical to acerC1) is ignored but added at the end
+NOTE: obicC2 (identical to acerC1) is ignored but added at the end
+NOTE: bafC1 (identical to adoC2) is ignored but added at the end
+NOTE: bbifC1 (identical to adoC2) is ignored but added at the end
+NOTE: bhuC1 (identical to adoC2) is ignored but added at the end
+NOTE: bimC2 (identical to adoC2) is ignored but added at the end
+NOTE: bpyC2 (identical to adoC2) is ignored but added at the end
+NOTE: bteC2 (identical to adoC2) is ignored but added at the end
+NOTE: bvaC2 (identical to adoC2) is ignored but added at the end
+NOTE: bvoC1 (identical to adoC2) is ignored but added at the end
+NOTE: dquN2 (identical to adoC2) is ignored but added at the end
+NOTE: emeN2 (identical to adoC2) is ignored but added at the end
+NOTE: hlaN2 (identical to adoC2) is ignored but added at the end
+NOTE: hsalC1 (identical to adoC2) is ignored but added at the end
+NOTE: mgeC2 (identical to adoC2) is ignored but added at the end
+NOTE: mroN1 (identical to adoC2) is ignored but added at the end
+NOTE: oabN1 (identical to adoC2) is ignored but added at the end
+NOTE: pdoN1 (identical to adoC2) is ignored but added at the end
+NOTE: pfuC1 (identical to adoC2) is ignored but added at the end
+NOTE: vcrC1 (identical to adoC2) is ignored but added at the end
+NOTE: vpeC1 (identical to adoC2) is ignored but added at the end
+NOTE: vveC1 (identical to adoC2) is ignored but added at the end
+NOTE: vvuC1 (identical to adoC2) is ignored but added at the end
+NOTE: wauN1 (identical to adoC2) is ignored but added at the end
+NOTE: amoC1 (identical to afunC2) is ignored but added at the end
+NOTE: anilC2 (identical to afunC2) is ignored but added at the end
+NOTE: mpeN1 (identical to agoC1) is ignored but added at the end
+NOTE: msaC1 (identical to agoC1) is ignored but added at the end
+NOTE: rmaC1 (identical to agoC1) is ignored but added at the end
+NOTE: bimC1 (identical to bbifC2) is ignored but added at the end
+NOTE: bvaC1 (identical to bbifC2) is ignored but added at the end
+NOTE: bvoC2 (identical to bbifC2) is ignored but added at the end
+NOTE: bolC3 (identical to bdoC1) is ignored but added at the end
+NOTE: bneC1 (identical to bdoC2) is ignored but added at the end
+NOTE: btrC2 (identical to bdoC2) is ignored but added at the end
+NOTE: rpoC2 (identical to bneC2) is ignored but added at the end
+NOTE: rzeN1 (identical to bneC2) is ignored but added at the end
+NOTE: ccoC1 (identical to cabC1) is ignored but added at the end
+NOTE: cfiN1 (identical to cabC1) is ignored but added at the end
+NOTE: cluC1 (identical to cabC1) is ignored but added at the end
+NOTE: cpaC1 (identical to cabC1) is ignored but added at the end
+NOTE: cscC1 (identical to cabC1) is ignored but added at the end
+NOTE: ctaC1 (identical to cabC1) is ignored but added at the end
+NOTE: cfrC1 (identical to caeC1) is ignored but added at the end
+NOTE: cglC1_0 (identical to caeC1) is ignored but added at the end
+NOTE: csiC1 (identical to caeC1) is ignored but added at the end
+NOTE: cgiC4 (identical to cauC1) is ignored but added at the end
+NOTE: srhN7 (identical to ccarC4) is ignored but added at the end
+NOTE: dguC1 (identical to danC2) is ignored but added at the end
+NOTE: dguaC2 (identical to danC2) is ignored but added at the end
+NOTE: dmaC2 (identical to danC2) is ignored but added at the end
+NOTE: dmeN2 (identical to danC2) is ignored but added at the end
+NOTE: dmiC2 (identical to danC2) is ignored but added at the end
+NOTE: dpsC2 (identical to danC2) is ignored but added at the end
+NOTE: dsaC2 (identical to danC2) is ignored but added at the end
+NOTE: dseC2 (identical to danC2) is ignored but added at the end
+NOTE: dsimC2 (identical to danC2) is ignored but added at the end
+NOTE: dsuC2 (identical to danC2) is ignored but added at the end
+NOTE: dsubC2 (identical to danC2) is ignored but added at the end
+NOTE: dsuzC2 (identical to danC2) is ignored but added at the end
+NOTE: dwiC2 (identical to danC2) is ignored but added at the end
+NOTE: dyaC1 (identical to danC2) is ignored but added at the end
+NOTE: dnaC2 (identical to darN2) is ignored but added at the end
+NOTE: dseC1 (identical to dbiC1) is ignored but added at the end
+NOTE: dsimC1 (identical to dbiC1) is ignored but added at the end
+NOTE: dpulC4 (identical to dpuC3) is ignored but added at the end
+NOTE: nlecC3 (identical to dsimC3) is ignored but added at the end
+NOTE: npiC3 (identical to dsimC3) is ignored but added at the end
+NOTE: nvirC1 (identical to dsimC3) is ignored but added at the end
+NOTE: fpoC1 (identical to fcoN1) is ignored but added at the end
+NOTE: fpsN1 (identical to fcoN1) is ignored but added at the end
+NOTE: fveN1 (identical to fcoN1) is ignored but added at the end
+NOTE: xmaN4 (identical to gafC4) is ignored but added at the end
+NOTE: scalN1 (identical to lcuC1) is ignored but added at the end
+NOTE: sgrN1 (identical to manC1) is ignored but added at the end
+NOTE: umaC1 (identical to manC1) is ignored but added at the end
+NOTE: marC28 (identical to marC12) is ignored but added at the end
+NOTE: nteC1 (identical to ncrC1) is ignored but added at the end
+NOTE: npiC1 (identical to nfaC1) is ignored but added at the end
+NOTE: nvirC2 (identical to nfaC1) is ignored but added at the end
+NOTE: npiC2 (identical to nfaC2) is ignored but added at the end
+NOTE: nvirC3 (identical to nfaC2) is ignored but added at the end
+NOTE: okiC9 (identical to ogoC6) is ignored but added at the end
+NOTE: omyC3 (identical to ogoC6) is ignored but added at the end
+NOTE: oneC2 (identical to ogoC6) is ignored but added at the end
+NOTE: otsC6 (identical to ogoC6) is ignored but added at the end
+NOTE: salN6 (identical to ogoC6) is ignored but added at the end
+NOTE: snaC5 (identical to ogoC6) is ignored but added at the end
+NOTE: ssaC6 (identical to ogoC6) is ignored but added at the end
+NOTE: strC2 (identical to ogoC6) is ignored but added at the end
+NOTE: okiC3 (identical to ogoC7) is ignored but added at the end
+NOTE: omyC2 (identical to ogoC7) is ignored but added at the end
+NOTE: oneC6 (identical to ogoC7) is ignored but added at the end
+NOTE: otsC2 (identical to ogoC7) is ignored but added at the end
+NOTE: snaC2 (identical to ogoC7) is ignored but added at the end
+NOTE: okiC5 (identical to ogoC8) is ignored but added at the end
+NOTE: omyC8 (identical to ogoC8) is ignored but added at the end
+NOTE: oneC3 (identical to ogoC8) is ignored but added at the end
+NOTE: otsC4 (identical to ogoC8) is ignored but added at the end
+NOTE: prapC2 (identical to pbrC1) is ignored but added at the end
+NOTE: pruN1 (identical to pchN1) is ignored but added at the end
+NOTE: pmeN6 (identical to pfoN1) is ignored but added at the end
+NOTE: rsaC2 (identical to rmiC2) is ignored but added at the end
+NOTE: sgrC2 (identical to samC1) is ignored but added at the end
+NOTE: spiC1 (identical to samC1) is ignored but added at the end
+NOTE: sserC2 (identical to samC1) is ignored but added at the end
+NOTE: sniC1 (identical to samC2) is ignored but added at the end
+NOTE: spiC2 (identical to samC2) is ignored but added at the end
+NOTE: sserC1 (identical to samC2) is ignored but added at the end
+NOTE: srhN4 (identical to sanN9) is ignored but added at the end
+NOTE: xmaN6 (identical to xcoC6) is ignored but added at the end
+Alignment was printed to ../gen100_famsa_10gap.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ../gen100_famsa_10gap.fa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.567 seconds
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 14.076 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -261725
+Threads: 2 / Time: 8.723 sec / Speedup: 1.614 / Efficiency: 81% / LogL: -261725
+Threads: 3 / Time: 7.069 sec / Speedup: 1.991 / Efficiency: 66% / LogL: -261725
+Threads: 4 / Time: 6.304 sec / Speedup: 2.233 / Efficiency: 56% / LogL: -261725
+Threads: 5 / Time: 6.104 sec / Speedup: 2.306 / Efficiency: 46% / LogL: -261725
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -71421.308
+Optimal log-likelihood: -71421.295
+Proportion of invariable sites: 0.008
+Gamma shape alpha: 0.711
+Parameters optimization took 1 rounds (0.877 sec)
+Time for fast ML tree search: 12.450 seconds
+
+NOTE: ModelFinder requires 410 MB RAM!
+ModelFinder will test up to 702 protein models (sample size: 201) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            77438.676    2365 159607.351   11350787.351 167419.667
+  2  LG+I          77376.404    2366 159484.808   11360128.808 167300.428
+  3  LG+G4         71422.886    2366 147577.772   11348221.772 155393.391
+  4  LG+I+G4       71421.295    2367 147576.590   11357688.590 155395.513
+  5  LG+R2         73225.143    2367 151184.285   11361296.285 159003.208
+  6  LG+R3         71847.672    2369 148433.345   11377493.345 156258.874
+  7  LG+R4         71409.340    2371 147560.681   11395584.681 155392.817
+  8  LG+R5         71263.380    2373 147272.759   11414276.759 155111.502
+  9  LG+R6         71174.141    2375 147098.282   11433098.282 154943.631
+ 10  LG+R7         71149.964    2377 147053.927   11452065.927 154905.883
+ 11  LG+R8         71115.943    2379 146989.887   11471029.887 154848.449
+ 12  LG+R9         71096.109    2381 146954.219   11490038.219 154819.388
+ 13  LG+R10        71091.239    2383 146948.479   11509092.479 154820.255
+ 25  LG+F+R9       71196.592    2400 147193.184   11671993.184 155121.116
+ 26  LG+F+R10      71196.271    2402 147196.541   11691208.541 155131.079
+ 38  WAG+R9        71799.237    2381 148360.474   11491444.474 156225.643
+ 39  WAG+R10       71791.371    2383 148348.742   11510492.742 156220.518
+ 51  WAG+F+R9      71638.956    2400 148077.913   11672877.913 156005.844
+ 52  WAG+F+R10     71634.961    2402 148073.922   11692085.922 156008.460
+ 64  JTT+R9        71619.910    2381 148001.821   11491085.821 155866.990
+ 65  JTT+R10       71610.061    2383 147986.123   11510130.123 155857.898
+ 77  JTT+F+R9      71516.002    2400 147832.004   11672632.004 155759.936
+ 78  JTT+F+R10     71508.107    2402 147820.214   11691832.214 155754.752
+ 90  Q.pfam+R9     71215.809    2381 147193.618   11490277.618 155058.787
+ 91  Q.pfam+R10    71213.123    2383 147192.245   11509336.245 155064.021
+103  Q.pfam+F+R9   71360.953    2400 147521.906   11672321.906 155449.838
+104  Q.pfam+F+R10  71357.082    2402 147518.163   11691530.163 155452.702
+116  Q.bird+R9     72751.743    2381 150265.487   11493349.487 158130.656
+117  Q.bird+R10    72740.446    2383 150246.892   11512390.892 158118.668
+129  Q.bird+F+R9   72868.482    2400 150536.963   11675336.963 158464.895
+130  Q.bird+F+R10  72859.186    2402 150522.372   11694534.372 158456.910
+142  Q.mammal+R9   72218.477    2381 149198.954   11492282.954 157064.123
+WARNING: Log-likelihood -72222.9 of Q.mammal+R10 worse than Q.mammal+R9 -72218.5
+143  Q.mammal+R10  72222.918    2383 149211.837   11511355.837 157083.612
+155  Q.mammal+F+R9 72306.462    2400 149412.923   11674212.923 157340.855
+156  Q.mammal+F+R10 72297.973    2402 149399.947   11693411.947 157334.485
+168  Q.insect+R9   70888.683    2381 146539.367   11489623.367 154404.536
+169  Q.insect+R10  70882.769    2383 146531.538   11508675.538 154403.314
+181  Q.insect+F+R9 71268.159    2400 147336.318   11672136.318 155264.250
+182  Q.insect+F+R10 71260.817    2402 147325.634   11691337.634 155260.173
+194  Q.plant+R9    71148.534    2381 147059.068   11490143.068 154924.237
+195  Q.plant+R10   71136.585    2383 147039.170   11509183.170 154910.945
+207  Q.plant+F+R9  71405.743    2400 147611.487   11672411.487 155539.418
+208  Q.plant+F+R10 71394.381    2402 147592.763   11691604.763 155527.301
+220  Q.yeast+R9    71050.780    2381 146863.560   11489947.560 154728.729
+221  Q.yeast+R10   71044.088    2383 146854.177   11508998.177 154725.952
+233  Q.yeast+F+R9  71276.114    2400 147352.229   11672152.229 155280.161
+234  Q.yeast+F+R10 71269.456    2402 147342.912   11691354.912 155277.450
+246  JTTDCMut+R9   71624.211    2381 148010.422   11491094.422 155875.591
+247  JTTDCMut+R10  71617.672    2383 148001.343   11510145.343 155873.119
+259  JTTDCMut+F+R9 71506.341    2400 147812.681   11672612.681 155740.613
+260  JTTDCMut+F+R10 71501.117    2402 147806.234   11691818.234 155740.772
+272  DCMut+R9      72608.443    2381 149978.886   11493062.886 157844.055
+273  DCMut+R10     72598.493    2383 149962.985   11512106.985 157834.761
+285  DCMut+F+R9    72090.679    2400 148981.357   11673781.357 156909.289
+286  DCMut+F+R10   72082.983    2402 148969.966   11692981.966 156904.505
+298  VT+R9         72123.826    2381 149009.653   11492093.653 156874.822
+299  VT+R10        72118.196    2383 149002.392   11511146.392 156874.167
+311  VT+F+R9       72099.221    2400 148998.441   11673798.441 156926.373
+312  VT+F+R10      72094.355    2402 148992.710   11693004.710 156927.249
+324  PMB+R9        72665.797    2381 150093.594   11493177.594 157958.763
+325  PMB+R10       72657.571    2383 150081.142   11512225.142 157952.918
+337  PMB+F+R9      72839.929    2400 150479.858   11675279.858 158407.790
+338  PMB+F+R10     72829.368    2402 150462.736   11694474.736 158397.274
+350  Blosum62+R9   72538.772    2381 149839.543   11492923.543 157704.712
+351  Blosum62+R10  72528.776    2383 149823.552   11511967.552 157695.328
+363  Blosum62+F+R9 72752.338    2400 150304.676   11675104.676 158232.607
+364  Blosum62+F+R10 72741.935    2402 150287.869   11694299.869 158222.408
+376  Dayhoff+R9    72602.126    2381 149966.251   11493050.251 157831.420
+377  Dayhoff+R10   72592.091    2383 149950.183   11512094.183 157821.958
+389  Dayhoff+F+R9  72084.901    2400 148969.801   11673769.801 156897.733
+390  Dayhoff+F+R10 72077.160    2402 148958.321   11692970.321 156892.859
+402  mtREV+R9      74376.691    2381 153515.382   11496599.382 161380.551
+403  mtREV+R10     74363.785    2383 153493.569   11515637.569 161365.345
+415  mtREV+F+R9    72702.357    2400 150204.714   11675004.714 158132.646
+416  mtREV+F+R10   72695.897    2402 150195.794   11694207.794 158130.332
+428  mtART+R9      74403.508    2381 153569.015   11496653.015 161434.184
+429  mtART+R10     74383.787    2383 153533.575   11515677.575 161405.350
+441  mtART+F+R9    73065.985    2400 150931.970   11675731.970 158859.902
+442  mtART+F+R10   73061.960    2402 150927.921   11694939.921 158862.459
+454  mtZOA+R9      72630.415    2381 150022.831   11493106.831 157888.000
+455  mtZOA+R10     72620.420    2383 150006.841   11512150.841 157878.617
+467  mtZOA+F+R9    71869.929    2400 148539.859   11673339.859 156467.790
+468  mtZOA+F+R10   71864.711    2402 148533.422   11692545.422 156467.960
+480  mtMet+R9      73472.144    2381 151706.287   11494790.287 159571.456
+481  mtMet+R10     73460.357    2383 151686.715   11513830.715 159558.490
+493  mtMet+F+R9    72341.339    2400 149482.678   11674282.678 157410.610
+494  mtMet+F+R10   72331.324    2402 149466.648   11693478.648 157401.186
+506  mtVer+R9      74818.639    2381 154399.279   11497483.279 162264.448
+507  mtVer+R10     74808.055    2383 154382.110   11516526.110 162253.886
+519  mtVer+F+R9    73577.824    2400 151955.648   11676755.648 159883.580
+520  mtVer+F+R10   73568.057    2402 151940.113   11695952.113 159874.651
+532  mtInv+R9      73434.718    2381 151631.436   11494715.436 159496.605
+533  mtInv+R10     73424.677    2383 151615.353   11513759.353 159487.129
+545  mtInv+F+R9    71812.321    2400 148424.642   11673224.642 156352.574
+546  mtInv+F+R10   71801.820    2402 148407.640   11692419.640 156342.179
+558  mtMAM+R9      76084.456    2381 156930.911   11500014.911 164796.080
+559  mtMAM+R10     76060.129    2383 156886.258   11519030.258 164758.033
+571  mtMAM+F+R9    74567.528    2400 153935.056   11678735.056 161862.988
+572  mtMAM+F+R10   74561.580    2402 153927.159   11697939.159 161861.698
+584  HIVb+R9       73444.231    2381 151650.463   11494734.463 159515.632
+585  HIVb+R10      73428.899    2383 151623.798   11513767.798 159495.573
+597  HIVb+F+R9     73041.439    2400 150882.878   11675682.878 158810.810
+598  HIVb+F+R10    73029.330    2402 150862.660   11694874.660 158797.199
+610  HIVw+R9       76534.167    2381 157830.334   11500914.334 165695.503
+611  HIVw+R10      76522.410    2383 157810.819   11519954.819 165682.595
+623  HIVw+F+R9     75327.056    2400 155454.112   11680254.112 163382.043
+624  HIVw+F+R10    75318.295    2402 155440.589   11699452.589 163375.128
+636  FLU+R9        72720.894    2381 150203.789   11493287.789 158068.958
+637  FLU+R10       72706.247    2383 150178.493   11512322.493 158050.269
+649  FLU+F+R9      72393.931    2400 149587.861   11674387.861 157515.793
+650  FLU+F+R10     72385.898    2402 149575.796   11693587.796 157510.334
+662  rtREV+R9      72261.343    2381 149284.685   11492368.685 157149.854
+663  rtREV+R10     72257.717    2383 149281.433   11511425.433 157153.209
+675  rtREV+F+R9    72022.683    2400 148845.367   11673645.367 156773.299
+676  rtREV+F+R10   72015.903    2402 148835.806   11692847.806 156770.345
+688  cpREV+R9      71952.174    2381 148666.347   11491750.347 156531.516
+689  cpREV+R10     71946.934    2383 148659.868   11510803.868 156531.644
+701  cpREV+F+R9    71778.444    2400 148356.887   11673156.887 156284.819
+702  cpREV+F+R10   71771.871    2402 148347.743   11692359.743 156282.281
+Akaike Information Criterion:           Q.insect+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         Q.insect+R10
+Best-fit model: Q.insect+R10 chosen according to BIC
+
+All model information printed to ../gen100_famsa_10gap.fa.model.gz
+CPU time for ModelFinder: 59315.319 seconds (16h:28m:35s)
+Wall-clock time for ModelFinder: 16653.924 seconds (4h:37m:33s)
+Generating 1000 samples for ultrafast bootstrap (seed: 280596)...
+
+NOTE: 410 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -70882.769
+Optimal log-likelihood: -70882.712
+Site proportion and rates:  (0.125,0.030) (0.123,0.123) (0.101,0.271) (0.057,0.344) (0.137,0.546) (0.150,0.833) (0.113,1.165) (0.067,1.878) (0.049,2.790) (0.078,4.351)
+Parameters optimization took 1 rounds (16.318 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 71.405826 sec (of wall-clock time) 267.593102 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.330984 sec (of wall-clock time) 0.366514 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -72612.648
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 63.558 second
+Computing log-likelihood of 98 initial trees ... 70.389 seconds
+Current best score: -70882.712
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -70845.419
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -70707.364
+Iteration 10 / LogL: -70788.342 / Time: 0h:8m:32s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -70698.174
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -70669.079
+Iteration 20 / LogL: -70820.450 / Time: 0h:14m:55s
+Finish initializing candidate tree set (20)
+Current best tree score: -70669.079 / CPU time: 798.404
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -70656.527
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -70591.233
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -70570.125
+Iteration 30 / LogL: -70811.632 / Time: 0h:21m:3s (1h:8m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -70548.164
+Iteration 40 / LogL: -70632.404 / Time: 0h:25m:6s (1h:1m:10s left)
+Iteration 50 / LogL: -70843.526 / Time: 0h:29m:11s (0h:50m:38s left)
+Log-likelihood cutoff on original alignment: -70774.042
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -70513.853
+Iteration 60 / LogL: -70541.553 / Time: 0h:33m:51s (0h:53m:55s left)
+Iteration 70 / LogL: -70645.364 / Time: 0h:37m:45s (0h:45m:58s left)
+Iteration 80 / LogL: -70632.650 / Time: 0h:42m:1s (0h:39m:22s left)
+Iteration 90 / LogL: -70528.279 / Time: 0h:45m:54s (0h:33m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 92: -70502.135
+Iteration 100 / LogL: -70524.582 / Time: 0h:50m:14s (0h:46m:41s left)
+Log-likelihood cutoff on original alignment: -70774.042
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.954
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -70533.623 / Time: 0h:54m:44s (0h:45m:11s left)
+Iteration 120 / LogL: -70510.002 / Time: 0h:59m:2s (0h:39m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 123: -70490.012
+Iteration 130 / LogL: -70608.939 / Time: 1h:3m:28s (0h:45m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 135: -70485.021
+Iteration 140 / LogL: -70721.531 / Time: 1h:8m:30s (0h:46m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 141: -70472.053
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 148: -70442.848
+Iteration 150 / LogL: -70934.613 / Time: 1h:13m:22s (0h:48m:15s left)
+Log-likelihood cutoff on original alignment: -70724.247
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 153: -70435.211
+Iteration 160 / LogL: -70520.934 / Time: 1h:18m:29s (0h:45m:54s left)
+Iteration 170 / LogL: -70662.725 / Time: 1h:22m:46s (0h:40m:39s left)
+Iteration 180 / LogL: -70453.045 / Time: 1h:27m:17s (0h:35m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 183: -70426.741
+Iteration 190 / LogL: -70636.593 / Time: 1h:32m:7s (0h:45m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 197: -70414.539
+Iteration 200 / LogL: -70426.593 / Time: 1h:36m:43s (0h:47m:8s left)
+Log-likelihood cutoff on original alignment: -70724.247
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.929
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -70429.544 / Time: 1h:40m:52s (0h:43m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 211: -70407.187
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 219: -70405.170
+Iteration 220 / LogL: -70559.508 / Time: 1h:46m:0s (0h:47m:55s left)
+Iteration 230 / LogL: -70502.416 / Time: 1h:50m:4s (0h:42m:46s left)
+Iteration 240 / LogL: -70427.449 / Time: 1h:54m:7s (0h:37m:43s left)
+Iteration 250 / LogL: -70459.917 / Time: 1h:58m:11s (0h:32m:45s left)
+Log-likelihood cutoff on original alignment: -70622.558
+Iteration 260 / LogL: -70538.518 / Time: 2h:2m:22s (0h:27m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 268: -70403.222
+Iteration 270 / LogL: -70456.170 / Time: 2h:6m:57s (0h:46m:15s left)
+Iteration 280 / LogL: -70444.757 / Time: 2h:11m:3s (0h:41m:20s left)
+Iteration 290 / LogL: -70464.849 / Time: 2h:15m:6s (0h:36m:27s left)
+Iteration 300 / LogL: -70446.769 / Time: 2h:19m:7s (0h:31m:38s left)
+Log-likelihood cutoff on original alignment: -70582.031
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.958
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -70467.479 / Time: 2h:23m:28s (0h:41m:47s left)
+Iteration 320 / LogL: -70501.124 / Time: 2h:27m:24s (0h:36m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 327: -70401.169
+Iteration 330 / LogL: -70473.408 / Time: 2h:31m:25s (0h:44m:38s left)
+Iteration 340 / LogL: -70465.807 / Time: 2h:35m:18s (0h:39m:51s left)
+Iteration 350 / LogL: -70627.456 / Time: 2h:39m:33s (0h:35m:12s left)
+Log-likelihood cutoff on original alignment: -70556.709
+Iteration 360 / LogL: -70423.410 / Time: 2h:43m:42s (0h:30m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 370: -70398.910
+Iteration 370 / LogL: -70398.910 / Time: 2h:48m:1s (0h:45m:32s left)
+Iteration 380 / LogL: -70469.730 / Time: 2h:52m:19s (0h:40m:55s left)
+Iteration 390 / LogL: -70451.655 / Time: 2h:56m:23s (0h:36m:16s left)
+Iteration 400 / LogL: -70428.749 / Time: 3h:0m:29s (0h:31m:39s left)
+Log-likelihood cutoff on original alignment: -70552.094
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -70519.776 / Time: 3h:4m:24s (0h:40m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 412: -70385.380
+Iteration 420 / LogL: -70428.886 / Time: 3h:10m:10s (0h:41m:45s left)
+Iteration 430 / LogL: -70533.981 / Time: 3h:14m:52s (0h:37m:15s left)
+Iteration 440 / LogL: -70463.385 / Time: 3h:18m:56s (0h:32m:37s left)
+Iteration 450 / LogL: -70473.131 / Time: 3h:24m:15s (0h:28m:12s left)
+Log-likelihood cutoff on original alignment: -70549.484
+Iteration 460 / LogL: -70418.188 / Time: 3h:29m:17s (0h:23m:42s left)
+Iteration 470 / LogL: -70421.429 / Time: 3h:34m:24s (0h:19m:12s left)
+Iteration 480 / LogL: -70415.895 / Time: 3h:39m:29s (0h:14m:39s left)
+Iteration 490 / LogL: -70415.205 / Time: 3h:44m:51s (0h:10m:6s left)
+Iteration 500 / LogL: -70456.276 / Time: 3h:49m:55s (0h:5m:31s left)
+Log-likelihood cutoff on original alignment: -70549.484
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -70446.061 / Time: 3h:54m:52s (0h:41m:31s left)
+Iteration 520 / LogL: -70543.647 / Time: 3h:59m:58s (0h:36m:59s left)
+Iteration 530 / LogL: -70471.124 / Time: 4h:5m:10s (0h:32m:26s left)
+Iteration 540 / LogL: -70402.325 / Time: 4h:9m:32s (0h:27m:46s left)
+Iteration 550 / LogL: -70624.238 / Time: 4h:14m:45s (0h:23m:12s left)
+Log-likelihood cutoff on original alignment: -70534.722
+Iteration 560 / LogL: -70526.789 / Time: 4h:20m:13s (0h:18m:37s left)
+Iteration 570 / LogL: -70538.719 / Time: 4h:25m:5s (0h:13m:58s left)
+Iteration 580 / LogL: -70397.257 / Time: 4h:30m:6s (0h:9m:19s left)
+Iteration 590 / LogL: -70406.916 / Time: 4h:34m:46s (0h:4m:39s left)
+Iteration 600 / LogL: -70447.408 / Time: 4h:39m:34s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -70534.722
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -70431.095 / Time: 4h:44m:36s (0h:42m:3s left)
+Iteration 620 / LogL: -70423.069 / Time: 4h:49m:48s (0h:37m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 627: -70374.037
+Iteration 630 / LogL: -70418.730 / Time: 4h:55m:28s (0h:45m:33s left)
+Iteration 640 / LogL: -70432.128 / Time: 5h:0m:46s (0h:40m:57s left)
+Iteration 650 / LogL: -70542.723 / Time: 5h:5m:30s (0h:36m:14s left)
+Log-likelihood cutoff on original alignment: -70534.722
+Iteration 660 / LogL: -70388.746 / Time: 5h:10m:48s (0h:31m:35s left)
+Iteration 670 / LogL: -70394.335 / Time: 5h:16m:26s (0h:26m:57s left)
+Iteration 680 / LogL: -70422.694 / Time: 5h:21m:30s (0h:22m:15s left)
+Iteration 690 / LogL: -70442.911 / Time: 5h:26m:24s (0h:17m:31s left)
+Iteration 700 / LogL: -70463.150 / Time: 5h:31m:59s (0h:12m:49s left)
+Log-likelihood cutoff on original alignment: -70534.722
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -70595.146 / Time: 5h:37m:14s (0h:42m:48s left)
+Iteration 720 / LogL: -70405.241 / Time: 5h:42m:25s (0h:38m:5s left)
+Iteration 730 / LogL: -70468.240 / Time: 5h:47m:47s (0h:33m:23s left)
+Iteration 740 / LogL: -70416.484 / Time: 5h:52m:58s (0h:28m:39s left)
+Iteration 750 / LogL: -70429.606 / Time: 5h:58m:12s (0h:23m:54s left)
+Log-likelihood cutoff on original alignment: -70534.722
+Iteration 760 / LogL: -70436.661 / Time: 6h:3m:34s (0h:19m:9s left)
+Iteration 770 / LogL: -70440.206 / Time: 6h:8m:54s (0h:14m:23s left)
+Iteration 780 / LogL: -70414.350 / Time: 6h:14m:24s (0h:9m:36s left)
+Iteration 790 / LogL: -70427.154 / Time: 6h:19m:35s (0h:4m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 794: -70368.723
+Iteration 800 / LogL: -70426.788 / Time: 6h:25m:18s (0h:45m:19s left)
+Log-likelihood cutoff on original alignment: -70534.722
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.984
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -70439.797 / Time: 6h:30m:57s (0h:43m:29s left)
+Iteration 820 / LogL: -70428.138 / Time: 6h:36m:24s (0h:38m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 825: -70358.722
+Iteration 830 / LogL: -70410.177 / Time: 6h:41m:50s (0h:46m:2s left)
+Iteration 840 / LogL: -70441.569 / Time: 6h:47m:1s (0h:41m:14s left)
+Iteration 850 / LogL: -70420.598 / Time: 6h:52m:15s (0h:36m:25s left)
+Log-likelihood cutoff on original alignment: -70519.843
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 855: -70346.608
+Iteration 860 / LogL: -70506.621 / Time: 6h:57m:54s (0h:46m:13s left)
+Iteration 870 / LogL: -70427.464 / Time: 7h:2m:56s (0h:41m:22s left)
+Iteration 880 / LogL: -70417.627 / Time: 7h:8m:13s (0h:36m:32s left)
+Iteration 890 / LogL: -70390.508 / Time: 7h:13m:35s (0h:31m:42s left)
+Iteration 900 / LogL: -70401.086 / Time: 7h:19m:13s (0h:26m:52s left)
+Log-likelihood cutoff on original alignment: -70519.843
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.977
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -70368.989 / Time: 7h:24m:44s (0h:44m:2s left)
+Iteration 920 / LogL: -70422.410 / Time: 7h:29m:46s (0h:39m:9s left)
+Iteration 930 / LogL: -70637.670 / Time: 7h:35m:6s (0h:34m:17s left)
+Iteration 940 / LogL: -70493.343 / Time: 7h:40m:49s (0h:29m:26s left)
+Iteration 950 / LogL: -70438.613 / Time: 7h:45m:50s (0h:24m:32s left)
+Log-likelihood cutoff on original alignment: -70519.843
+Iteration 960 / LogL: -70381.423 / Time: 7h:50m:54s (0h:19m:38s left)
+Iteration 970 / LogL: -70448.072 / Time: 7h:55m:56s (0h:14m:44s left)
+Iteration 980 / LogL: -70435.308 / Time: 8h:0m:25s (0h:9m:48s left)
+Iteration 990 / LogL: -70378.981 / Time: 8h:5m:2s (0h:4m:54s left)
+Iteration 1000 / LogL: -70429.441 / Time: 8h:10m:15s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -70519.843
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.975
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 8h:10m:45s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -70346.608
+Optimal log-likelihood: -70346.598
+Site proportion and rates:  (0.124,0.027) (0.128,0.125) (0.141,0.285) (0.120,0.509) (0.104,0.727) (0.124,0.968) (0.065,1.230) (0.065,1.873) (0.049,2.766) (0.079,4.361)
+Parameters optimization took 1 rounds (6.988 sec)
+BEST SCORE FOUND : -70346.598
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -70346.412 > -70346.598
+Alternative NNI shows better log-likelihood -70346.582 > -70346.598
+Alternative NNI shows better log-likelihood -70345.661 > -70346.598
+Alternative NNI shows better log-likelihood -70346.597 > -70346.598
+Alternative NNI shows better log-likelihood -70346.563 > -70346.598
+Alternative NNI shows better log-likelihood -70346.414 > -70346.598
+Alternative NNI shows better log-likelihood -70346.345 > -70346.598
+Alternative NNI shows better log-likelihood -70346.508 > -70346.598
+Alternative NNI shows better log-likelihood -70344.900 > -70346.598
+Alternative NNI shows better log-likelihood -70346.368 > -70346.598
+Alternative NNI shows better log-likelihood -70346.525 > -70346.598
+4.453 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file ../gen100_famsa_10gap.fa.splits.nex
+Total tree length: 103.164
+
+Total number of iterations: 1001
+CPU time used for tree search: 114440.687 sec (31h:47m:20s)
+Wall-clock time used for tree search: 29348.760 sec (8h:9m:8s)
+Total CPU time used: 114849.807 sec (31h:54m:9s)
+Total wall-clock time used: 29462.062 sec (8h:11m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file ../gen100_famsa_10gap.fa.splits.nex...
+1184 taxa and 8338 splits.
+Consensus tree written to ../gen100_famsa_10gap.fa.contree
+Reading input trees file ../gen100_famsa_10gap.fa.contree
+Log-likelihood of consensus tree: -70337.987
+
+Analysis results written to: 
+  IQ-TREE report:                ../gen100_famsa_10gap.fa.iqtree
+  Maximum-likelihood tree:       ../gen100_famsa_10gap.fa.treefile
+  Likelihood distances:          ../gen100_famsa_10gap.fa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ../gen100_famsa_10gap.fa.splits.nex
+  Consensus tree:                ../gen100_famsa_10gap.fa.contree
+  Screen log file:               ../gen100_famsa_10gap.fa.log
+
+Date and Time: Thu Aug 15 13:37:14 2024
