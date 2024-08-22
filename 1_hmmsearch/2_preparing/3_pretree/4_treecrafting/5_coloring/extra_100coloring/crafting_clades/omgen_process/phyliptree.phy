@@ -1,0 +1,274 @@
+(
+(
+(
+(
+(
+(
+'Kalmanozyma brasiliensis':4)
+Kalmanozyma:4,
+(
+'Pseudozyma hubeiensis':4)
+Pseudozyma:4,
+(
+'Sporisorium graminicola':4)
+Sporisorium:4,
+(
+'Moesziomyces antarcticus':4)
+Moesziomyces:4,
+(
+'Ustilago hordei':4,
+'Ustilago maydis':4
+)Ustilago:4
+)Ustilaginaceae:4)
+Ustilaginales:4)
+Ustilaginomycetes:4)
+Basidiomycota:4,
+(
+(
+(
+(
+(
+'Lindgomyces ingoldianus':4)
+Lindgomyces:4)
+Lindgomycetaceae:4,
+(
+(
+'Trematosphaeria pertusa':4)
+Trematosphaeria:4)
+Trematosphaeriaceae:4,
+(
+(
+'Westerdykella ornata':4)
+Westerdykella:4)
+Sporormiaceae:4,
+(
+(
+'Didymella exigua':4)
+Didymella:4)
+Didymellaceae:4
+)Pleosporales:4)
+Dothideomycetes:4,
+(
+(
+(
+'Thyridium curvatum':4)
+Thyridium:4)
+Thyridiaceae:4,
+(
+(
+(
+'Phialemonium atrogriseum':4)
+Phialemonium:4)
+Cephalothecaceae:4)
+Cephalothecales:4,
+(
+(
+(
+'Scedosporium apiospermum':4)
+Scedosporium:4)
+Microascaceae:4)
+Microascales:4,
+(
+(
+(
+'Phaeoacremonium minimum':4)
+Phaeoacremonium:4)
+Togniniaceae:4)
+Togniniales:4,
+(
+(
+(
+'Pseudomassariella vexata':4)
+Pseudomassariella:4)
+Pseudomassariaceae:4,
+(
+(
+'Hypoxylon trugodes':4,
+'Hypoxylon fragiforme':4
+)Hypoxylon:4)
+Hypoxylaceae:4
+)Xylariales:4,
+(
+(
+(
+'Pyricularia pennisetigena':4,
+'Pyricularia oryzae':4,
+'Pyricularia grisea':4
+)Pyricularia:4)
+Pyriculariaceae:4,
+(
+(
+'Gaeumannomyces tritici':4)
+Gaeumannomyces:4)
+Magnaporthaceae:4
+)Magnaporthales:4,
+(
+(
+(
+'Fusarium flagelliforme':4,
+'Fusarium coffeatum':4,
+'Fusarium pseudograminearum':4,
+'Fusarium venenatum':4,
+'Fusarium poae':4
+)Fusarium:4)
+Nectriaceae:4)
+Hypocreales:4,
+(
+(
+(
+'Sodiomyces alkalinus':4)
+Sodiomyces:4)
+Plectosphaerellaceae:4,
+(
+(
+'Colletotrichum paranaense':4,
+'Colletotrichum chrysophilum':4,
+'Colletotrichum abscissum':4,
+'Colletotrichum aenigma':4,
+'Colletotrichum tamarilloi':4,
+'Colletotrichum scovillei':4,
+'Colletotrichum orchidophilum':4,
+'Colletotrichum godetiae':4,
+'Colletotrichum costaricense':4,
+'Colletotrichum karsti':4,
+'Colletotrichum fioriniae':4,
+'Colletotrichum spaethianum':4,
+'Colletotrichum siamense':4,
+'Colletotrichum fructicola':4,
+'Colletotrichum navitas':4,
+'Colletotrichum gloeosporioides':4,
+'Colletotrichum phormii':4,
+'Colletotrichum lupini':4,
+'Colletotrichum higginsianum':4,
+'Colletotrichum graminicola':4,
+'Colletotrichum acutatum':4,
+'Colletotrichum truncatum':4
+)Colletotrichum:4)
+Glomerellaceae:4
+)Glomerellales:4,
+(
+(
+(
+'Podospora anserina':4)
+Podospora:4)
+Podosporaceae:4,
+(
+(
+'Lasiosphaeria miniovina':4)
+Lasiosphaeria:4)
+Lasiosphaeriaceae:4,
+(
+(
+'Thermothielavioides terrestris':4)
+Thermothielavioides:4,
+(
+'Thermothelomyces thermophilus':4)
+Thermothelomyces:4
+)Chaetomiaceae:4,
+(
+(
+'Neurospora tetrasperma':4,
+'Neurospora crassa':4
+)Neurospora:4)
+Sordariaceae:4
+)Sordariales:4
+)Sordariomycetes:4,
+(
+(
+(
+(
+'Endocarpon pusillum':4)
+Endocarpon:4)
+Verrucariaceae:4)
+Verrucariales:4,
+(
+(
+(
+'Rhinocladiella mackenziei':4)
+Rhinocladiella:4,
+(
+'Exophiala xenobiotica':4,
+'Exophiala oligosperma':4,
+'Exophiala mesophila':4,
+'Exophiala dermatitidis':4
+)Exophiala:4
+)Herpotrichiellaceae:4)
+Chaetothyriales:4,
+(
+(
+(
+'Blastomyces gilchristii':4)
+Blastomyces:4)
+Ajellomycetaceae:4,
+(
+(
+'Arthroderma uncinatum':4)
+Arthroderma:4,
+(
+'Microsporum canis':4)
+Microsporum:4
+)Arthrodermataceae:4,
+(
+(
+'Ophidiomyces ophidiicola':4)
+Ophidiomyces:4,
+(
+'Uncinocarpus reesii':4)
+Uncinocarpus:4,
+(
+'Coccidioides posadasii':4,
+'Coccidioides immitis':4
+)Coccidioides:4
+)Onygenaceae:4
+)Onygenales:4,
+(
+(
+(
+'Talaromyces amestolkiae':4,
+'Talaromyces rugulosus':4,
+'Talaromyces marneffei':4,
+'Talaromyces stipitatus':4
+)Talaromyces:4)
+Trichocomaceae:4,
+(
+(
+'Aspergillus fumigatus':4,
+'Aspergillus lentulus':4,
+'Aspergillus fischeri':4
+)Aspergillus:4,
+(
+'Penicillium cataractarum':4,
+'Penicillium riverlandense':4,
+'Penicillium arizonense':4,
+'Penicillium subrubescens':4,
+'Penicillium argentinense':4,
+'Penicillium rubens':4,
+'Penicillium mononematosum':4,
+'Penicillium canariense':4,
+'Penicillium bovifimosum':4,
+'Penicillium lagena':4,
+'Penicillium soppii':4,
+'Penicillium daleae':4,
+'Penicillium solitum':4,
+'Penicillium hordei':4,
+'Penicillium canescens':4,
+'Penicillium chrysogenum':4
+)Penicillium:4
+)Aspergillaceae:4
+)Eurotiales:4
+)Eurotiomycetes:4,
+(
+(
+(
+(
+'Saccharomyces eubayanus':4,
+'Saccharomyces mikatae':4,
+'Saccharomyces kudriavzevii':4,
+'Saccharomyces paradoxus':4,
+'Saccharomyces cerevisiae':4
+)Saccharomyces:4)
+Saccharomycetaceae:4)
+Saccharomycetales:4)
+Saccharomycetes:4
+)Ascomycota:4
+)Fungi:4;
