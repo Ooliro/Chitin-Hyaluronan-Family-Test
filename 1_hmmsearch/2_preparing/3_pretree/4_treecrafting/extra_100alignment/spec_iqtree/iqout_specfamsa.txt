@@ -1,0 +1,53 @@
+IQ-TREE multicore version 2.3.0 COVID-edition for Linux 64-bit built Mar 14 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    ubmi02 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -m MFP -B 1000 -alrt 1000 -s spec100_famsa.ali -T AUTO --redo-tree
+Seed:    867261 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 21 21:22:23 2024
+Kernel:  AVX+FMA - auto-detect threads (32 CPU cores detected)
+
+Reading alignment file spec100_famsa.ali ... Fasta format detected
+Reading fasta file: done in 0.220841 secs using 89.99% CPU
+Alignment most likely contains protein sequences
+WARNING: 54 sites contain only gaps or ambiguous characters.
+Alignment has 2982 sequences with 4570 columns, 4048 distinct patterns
+1975 parsimony-informative, 787 singleton sites, 1808 constant sites
+ERROR: Duplicated sequence name danC1
+ERROR: Duplicated sequence name danC2
+ERROR: Duplicated sequence name darN1
+ERROR: Duplicated sequence name dbiC1
+ERROR: Duplicated sequence name dbiC2
+ERROR: Duplicated sequence name dguC1
+ERROR: Duplicated sequence name dguC2
+ERROR: Duplicated sequence name dmaC1
+ERROR: Duplicated sequence name dmaC2
+ERROR: Duplicated sequence name dmeN2
+ERROR: Duplicated sequence name dmiC1
+ERROR: Duplicated sequence name dmiC2
+ERROR: Duplicated sequence name dnaC1
+ERROR: Duplicated sequence name dnaC2
+ERROR: Duplicated sequence name dpsC1
+ERROR: Duplicated sequence name dpsC2
+ERROR: Duplicated sequence name dsaC1
+ERROR: Duplicated sequence name dsaC2
+ERROR: Duplicated sequence name dsiC1
+ERROR: Duplicated sequence name dsiC2
+ERROR: Duplicated sequence name dsuC1
+ERROR: Duplicated sequence name dsuC2
+ERROR: Duplicated sequence name dsubC1
+ERROR: Duplicated sequence name dsubC2
+ERROR: Duplicated sequence name dteC1
+ERROR: Duplicated sequence name dteC2
+ERROR: Duplicated sequence name dviC1
+ERROR: Duplicated sequence name dviC2
+ERROR: Duplicated sequence name dwiC1
+ERROR: Duplicated sequence name dwiC2
+ERROR: Duplicated sequence name dyaC1
+ERROR: Duplicated sequence name dyaC2
+ERROR: Duplicated sequence name mgeC1
+ERROR: Duplicated sequence name mgeC2
+ERROR: Duplicated sequence name mroN1
+ERROR: Duplicated sequence name mroN2
+ERROR: Duplicated sequence name rsaC1
