@@ -1,0 +1,78 @@
+DATASET_SYMBOL
+#Symbol datasets allow the display of various symbols on the branches , or outside of the tree. For each node, one or more symbols can be defined.
+
+#SEPARATOR TAB
+#SEPARATOR SPACE
+SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL,spp_of_interest
+
+#dataset color (can be changed later)
+COLOR,#ffff00
+
+#Shape should be a number between 1 and 6, or any protein domain shape definition.
+#1: square
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+LEGEND_TITLE,Dataset for symbols
+LEGEND_SCALE,1
+LEGEND_POSITION_X,180
+LEGEND_POSITION_Y,240
+LEGEND_HORIZONTAL,0
+LEGEND_VISIBLE,1
+LEGEND_SHAPES,1,2,3,4,6
+LEGEND_COLORS,#3C1642,#086375,#1DD3B0,#AFFC41,#B2FF9E
+LEGEND_LABELS,B.floridae,X.laevis,D.melanogaster,H.sapiens,S.cerevisae
+LEGEND_SHAPE_SCALES,1,1,1,1,1
+LEGEND_SHAPE_INVERT,0,0,0,0,0
+
+#largest symbol will be displayed with this size, others will be proportionally smaller.
+MAXIMUM_SIZE,10
+
+#symbols can be filled with solid color, or a gradient
+#GRADIENT_FILL,1
+
+#spacing between symbol columns, only for external symbols
+#SYMBOL_SPACING,10
+
+#display or hide the dataset label above first external symbols column
+#SHOW_LABELS 1
+
+#dataset label size factor
+#LABEL_SIZE_FACTOR 1
+
+#dataset label rotation
+#LABEL_ROTATION 0
+
+#dataset label shift in pixels (positive or negative)
+#LABEL_SHIFT 0
+
+#align the dataset label to the tree circle; only applies in circular display mode
+#LABEL_ALIGN_TO_TREE,0
+
+#the following fields are required for each node:
+#ID,symbol,size,color,fill,position,label
+
+#symbol should be a number between 1 and 5:
+#1: rectangle
+#2: circle
+#3: star
+#4: right pointing triangle
+#5: left pointing triangle
+#6: checkmark
+
+#position can be either:
+  #a number between 0 and 1 and defines the position of the symbol on the branch (for example, position 0 is exactly at the start of node branch, position 0.5 is in the middle, and position 1 is at the end)
+  #a negative integer number, which will position the symbol outside the tree. Position -1 will be the first external symbol column, -2 the second one and so on.
+
+DATA
+CONTAINS==bfl,1,10,#3C1642,1,-1
+CONTAINS==xla,2,10,#086375,1,-1
+CONTAINS==dme,3,10,#1DD3B0,1,-1
+CONTAINS==hsaH,4,10,#AFFC41,1,-1
+CONTAINS==sce,6,10,#B2FF9E,1,-1
