@@ -32,7 +32,7 @@ LEGEND_SHAPE_SCALES,1,1,1,1,1
 LEGEND_SHAPE_INVERT,0,0,0,0,0
 
 #largest symbol will be displayed with this size, others will be proportionally smaller.
-MAXIMUM_SIZE,10
+MAXIMUM_SIZE,20
 
 #symbols can be filled with solid color, or a gradient
 #GRADIENT_FILL,1
